@@ -9,7 +9,7 @@ Classes
 	class1	"v1_ImpSold"
 	class2	"v3_FOMarsh"
 	class3	"v6_ScoutTr"
-	Class4	"v8_GamoPig" 
+	class4	"v8_GamoPig" 
 	class5	"v9_SAcolyte"
 	class6	"v10_SForce"	
 }
@@ -38,6 +38,7 @@ SubclassesForClass1
 	Subclass20	"v3_Bossk"
 	Subclass21	"v3_IG88"
 	Subclass22	"ase3_RakatanInfantry"
+	Subclass23  "ase3_cultforce"
 }
 
 SubclassesForClass2
@@ -136,7 +137,7 @@ SubclassesForClass6
 	Subclass14	"ase10_Sariss"
 	Subclass15	"ase10_boc"
 	Subclass16	"ase10_x1"
-	subclass17	"ase10_pic"
+	Subclass17	"ase10_pic"
 	Subclass18	"ase10_gorc"
 	Subclass19	"ase10_kallig"
 }
