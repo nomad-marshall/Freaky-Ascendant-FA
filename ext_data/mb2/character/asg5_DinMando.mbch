@@ -3,7 +3,7 @@
 
 ClassInfo
 {
-	name 	"h5_DinMando"
+	name 	"asg5_DinMando"
 	MBClass	 MB_CLASS_MANDALORIAN
 	classNumberLimit  1
 	

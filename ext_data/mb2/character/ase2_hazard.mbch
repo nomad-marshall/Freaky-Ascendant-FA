@@ -2,7 +2,7 @@
 
 ClassInfo
 {
-	name  	"ase2_hazard"
+	name  	"ase2_Hazard"
 	MBClass 		MB_CLASS_MANDALORIAN
 	classNumberLimit	1
 	weapons 			WP_CONCUSSION|WP_MELEE|WP_REPEATER|WP_DET_PACK

@@ -21,7 +21,7 @@ SubclassesForClass1
 	Subclass3	"h1_SecurET"
 	Subclass4	"h1_OldRepET"
 	Subclass5 	"h1_TORtroop"
-	Subclass6	"asg1_ordomando"
+	Subclass6	"asg1_Ordomando"
 	Subclass7 	"asg1_SmugPist"
 	Subclass8	"h1_Talz"
 	Subclass9	"asg1_RebGuerrillaHeavyGunner"
@@ -36,9 +36,9 @@ SubclassesForClass1
 	Subclass18	"h2_Lando"
 	Subclass19	"h2_JanO"
 	Subclass20	"asg2_Carth"
-	Subclass21	"asg2_engineer"
-	Subclass22	"asg2_senator"
-	Subclass23	"asg2_zeb"
+	Subclass21	"asg2_Engineer"
+	Subclass22	"asg2_Senator"
+	Subclass23	"asg2_Zeb"
 }
 
 SubclassesForClass2
@@ -52,8 +52,8 @@ SubclassesForClass2
 	Subclass7	"h3_BossNass"
 	Subclass8  	"h3_Baze"
 	Subclass9	"h3_Cander"
-	Subclass10	"asg3_baodur"
-	Subclass11	"asg3_itsatrap"
+	Subclass10	"asg3_Baodur"
+	Subclass11	"asg3_Itsatrap"
 	Subclass12	"asg3_Saw"
 	Subclass13	"h4_Ewok"
 	Subclass14	"h4_SenGuard"
@@ -67,7 +67,7 @@ SubclassesForClass2
 
 SubclassesForClass3
 {
-	Subclass1 	"h5_NiteOwl"
+	Subclass1 	"asg5_NiteOwl"
 	Subclass2	"h5_AstroR2"
 	Subclass3	"h5_Skirata"
 	Subclass4	"asg5_BoKatan"
@@ -99,7 +99,7 @@ SubclassesForClass4
 	Subclass14	"h8_Chewie"
 	Subclass15 	"h8_Tarfful"
 	Subclass16	"h8_Zaal"
-	Subclass17	"h8_K2SO"
+	Subclass17	"asg8_K2SO"
 }
 
 SubclassesForClass5
@@ -134,6 +134,6 @@ SubclassesForClass6
 	Subclass11	"asg10_JKindredOne"
 	Subclass12	"asg10_JKindredTwo"
 	Subclass13	"asg10_RahmKota"
-	Subclass14	"asg10_jaden"
-	Subclass15	"asg10_x2"
+	Subclass14	"asg10_Jaden"
+	Subclass15	"asg10_X2"
 }

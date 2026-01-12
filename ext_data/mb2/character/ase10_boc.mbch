@@ -2,7 +2,7 @@
 
 ClassInfo
 {
-	name			"ase10_boc"
+	name			"ase10_Boc"
 	weapons			WP_SABER|WP_MELEE
 	saber1			saber_boc
 	saber2			saber_boc

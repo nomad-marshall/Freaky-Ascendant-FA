@@ -25,10 +25,10 @@ SubclassesForClass1
 	Subclass7	"v1_TORagent"
 	Subclass8	"v1_Talz"
 	Subclass9	"v2_KMonkeyL"
-	Subclass10	"ase2_engineer"
-	Subclass11	"ase2_isb"
+	Subclass10	"ase2_Engineer"
+	Subclass11	"ase2_Isb"
 	Subclass12	"v2_FlameTr"
-	Subclass13	"ase2_hazard"
+	Subclass13	"ase2_Hazard"
 	Subclass14	"v2_Hondo"
 	Subclass15	"v2_Greedo" 
 	Subclass16	"v2_Calo"
@@ -38,7 +38,7 @@ SubclassesForClass1
 	Subclass20	"v3_Bossk"
 	Subclass21	"v3_IG88"
 	Subclass22	"ase3_RakatanInfantry"
-	Subclass23  "ase3_cultforce"
+	Subclass23  "ase3_Cultforce"
 }
 
 SubclassesForClass2
@@ -67,7 +67,7 @@ SubclassesForClass2
 
 SubclassesForClass3
 {
-	Subclass1	"ase6_federation"
+	Subclass1	"ase6_Federation"
 	Subclass2	"ase6_Gideon"
 	Subclass3	"v6_Tusk"
 	Subclass4	"v6_Aurra"
@@ -97,7 +97,6 @@ SubclassesForClass4
 	Subclass5	"v8_Snoova"
 	Subclass6	"v8_Wampa"
 	Subclass7	"ase8_BlackK"
-	Subclass8	"ase8_RakatanInfantry"
 }
 
 SubclassesForClass5
@@ -133,11 +132,11 @@ SubclassesForClass6
 	Subclass10	"v10_Traya"
 	Subclass11	"ase10_Abeloth"
 	Subclass12	"ase10_Nadd"
-	Subclass13	"ase10_yun"
+	Subclass13	"ase10_Yun"
 	Subclass14	"ase10_Sariss"
-	Subclass15	"ase10_boc"
-	Subclass16	"ase10_x1"
-	Subclass17	"ase10_pic"
-	Subclass18	"ase10_gorc"
-	Subclass19	"ase10_kallig"
+	Subclass15	"ase10_Boc"
+	Subclass16	"ase10_X1"
+	Subclass17	"ase10_Pic"
+	Subclass18	"ase10_Gorc"
+	Subclass19	"ase10_Kallig"
 }
