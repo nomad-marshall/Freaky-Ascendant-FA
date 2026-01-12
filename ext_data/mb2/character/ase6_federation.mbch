@@ -2,7 +2,7 @@
 
 ClassInfo
 {
-	name	"ase6_federation"
+	name	"ase6_Federation"
 	classNumberLimit	1
 	
 	MBClass	MB_CLASS_MANDALORIAN

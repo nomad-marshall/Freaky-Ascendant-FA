@@ -89,7 +89,7 @@ WeaponInfo1
 	CustomAmmo 10
 	ReloadTimeModifier 	0.9
 	velocityMod 2.0
-	damageMod 0.25
+	damageMod 0.50
 }
 
 WeaponInfo2
@@ -118,7 +118,7 @@ A heavy gunner equipped with a modified Pistol, Unique RPG, and other explosives
 - Saw's RPG (10) (PLX)
 -- Staggers/pushes on hit
 -- 100% more Velocity
--- 75% Less Damage
+-- 50% Less Damage
 -- 10% Faster Reload
 -- 15% slower movement
 - Rhydonium Grenades (4) (Frag)

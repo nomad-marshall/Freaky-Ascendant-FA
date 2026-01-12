@@ -2,7 +2,7 @@
 
 ClassInfo
 {
-	name				"h10_JHeal"
+	name				"asg10_JHeal"
 	MBClass				MB_CLASS_JEDI
 	weapons				WP_MELEE|WP_SABER
 	forcepowers			FP_LEVITATION,3|FP_SEE,3|FP_SABERTHROW,2|FP_TELEPATHY,1|FP_PUSH,1|FP_PULL,1
