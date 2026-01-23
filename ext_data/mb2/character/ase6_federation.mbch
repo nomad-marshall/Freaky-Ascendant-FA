@@ -32,13 +32,13 @@ ClassInfo
 	
 	model	"gunray"
 	skin	"default"
-	uishader  	"models/players/gunray/mb2_icon_default"
+	uishader  	"gfx/hud/FA_icons/mb2_icon_gunray"
 	
 	model_1	"rune"
 	skin_1	"default"
-	uishader_1  	"models/players/rune/mb2_icon_default"
+	uishader_1  	"gfx/hud/FA_icons/mb2_icon_rune"
 	
-	rateoffire		.45
+	rateoffire		.25
 	classflags	CFL_RUNFASTMELEE
 }
 WeaponInfo0
@@ -82,7 +82,7 @@ description	"Trade Federation Leader [Mandalorian]
 - Melee
 - E-5 Blaster Rifle (1)
 -- Based on the T-21
--- 65% Faster ROF
+-- 75% Faster ROF
 -- 50% Less Damage
 -- Prim Fire Only
 - Stun Grenades (3)
