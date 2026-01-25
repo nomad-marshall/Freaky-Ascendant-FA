@@ -3,7 +3,7 @@ ClassInfo
 {
 	name				"asg10_Scourge"
 	weapons				WP_SABER|WP_MELEE
-	attributes			MB_ATT_DEFLECT,2|MB_ATT_FORCEBLOCK,3|MB_ATT_FORCEFOCUS,2|MB_ATT_GUN_DEFENSE,1|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_CORTOSIS,1|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_ROSHTAUNT|MB_ATT_WOOKIEE_FURY,2
+	attributes			MB_ATT_DEFLECT,2|MB_ATT_FORCEBLOCK,3|MB_ATT_FORCEFOCUS,2|MB_ATT_GUN_DEFENSE,1|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_CORTOSIS,1|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_ROSHTAUNT
 	
 	saberstyle SS_STRONG|SS_DESANN|SS_MEDIUM
 	saber1			saber_desann_legends
@@ -27,10 +27,11 @@ ClassInfo
 	APmultiplier		1.25
 	ASmultiplier	    1.1
 	CSmultiplier	    1.12
-	forcepowers			FP_PUSH,2|FP_SEE,2|FP_PULL,2|FP_SABERTHROW,3|FP_LEVITATION,3|FP_GRIP,3|FP_ABSORB,2
+	forcepowers			FP_PUSH,2|FP_SEE,2|FP_PULL,2|FP_SABERTHROW,3|FP_LEVITATION,3|FP_GRIP,3|FP_ABSORB,2|FP_RAGE,2
 	maxhealth			125
 	maxarmor			125
 	forcepool			125
+	forceregen			.95
 	MBClass				MB_CLASS_JEDI
 	speed				1.07
 	classNumberLimit  	1
@@ -40,7 +41,7 @@ ClassInfo
 	modelscale		1.18
 	
 	special1		EAS_FP_SABERTHROW
-	special2 		EAS_HI_FURY
+	special2 		EAS_FP_RAGE
 	special3 		EAS_FP_ABSORB
 	special4 		EAS_FP_GRIP
 	resource		resource_rage
@@ -57,7 +58,7 @@ ClassInfo
 
 description	"Lord Scourge [Sith]
 
-An ancient sith and former Emperors Hand, Scourge turned against Vitiate to stop him wiping out all life.
+An ancient sith and former Emperors Hand, Scourge turned against Vitiate by allying with the Hero of Tython to stop him wiping out all life.
 
 ^2Weaponry:
 - Heavy Melee
@@ -74,13 +75,13 @@ An ancient sith and former Emperors Hand, Scourge turned against Vitiate to stop
 - Push (2) 
 - Pull (2)
 - Sense (2)
+- Rage (2) ^3[CS2]
 - Absorb (2) ^3[CS3]
 - Grip (3) ^3[CS4]
 - Block (3)
 - Focus (2)
 
 ^8Attributes:
-- Sith Rage (Fury) ^3[CS2] (2)
 - Sith Armor (Blast/Cort)
 - Armor Regen (1)
 - Master Interrogator (Toxic Taunt)
