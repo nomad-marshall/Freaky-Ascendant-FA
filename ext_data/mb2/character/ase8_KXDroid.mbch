@@ -4,9 +4,9 @@ ClassInfo
 {
 	name			"ase8_KXDroid"
 	MBClass 			MB_CLASS_WOOKIE
-	weapons 	WP_BLASTER|WP_SONIC_NADE|WP_MELEE|WP_SABER
+	weapons 	WP_SONIC_NADE|WP_MELEE|WP_SABER
 	
-	attributes  MB_ATT_BLASTER,3|MB_ATT_SONIC_DETONATOR,2|MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_CORTOSIS,1|MB_ATT_BESKAR,2|MB_ATT_ANTI_MT,2|MB_ATT_WOOKIEE_FURY,2|MB_ATT_TRACKING_BEACON
+	attributes  MB_ATT_SONIC_DETONATOR,2|MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_CORTOSIS,1|MB_ATT_BESKAR,2|MB_ATT_ANTI_MT,2|MB_ATT_WOOKIEE_FURY,2|MB_ATT_TRACKING_BEACON
 	
     classNumberLimit  	2
 	resource 		RESOURCE_RAGE
@@ -58,41 +58,46 @@ ClassInfo
     WP_SonicNadeFlags HELD_TRACKING
 
     isCustomBuild 1
-	mbPoints 50
+	mbPoints 60
 
     c_att_skill_0	MB_ATT_WOOKIE_STRENGTH
 	c_att_names_0	"Droid Strength"
 	c_att_ranks_0	0,0,20
 
-    c_att_skill_1	MB_ATT_T21
-    c_att_names_1	"Modified T21 Blaster Rifle"
-    c_att_ranks_1	15,0,0
-    c_att_descs_1	"+25% Velocity"
+    c_att_skill_1	MB_ATT_BLASTER
+	c_att_names_1	"Modified KX E-11 Blaster"
+	c_att_ranks_1	10,0,5
+	c_att_descs_1	"Secondary Fire Only. +10% ROF, +5% FP DMG & Velocity, & Mag Reload"
 
-    c_att_skill_2	MB_ATT_E_22
-    c_att_names_2	"Modified E-22 Blaster"
-    c_att_ranks_2	15,0,0
-    c_att_descs_2	"Extra knockback, +10% Damage and FP Damage"
+	c_att_skill_2	MB_ATT_T21
+	c_att_names_2	"Hypervelocity T21 Blaster Rifle"
+	c_att_ranks_2	10,0,5
+	c_att_descs_2	"+30% Velocity"
 
-    c_att_skill_3	MB_ATT_HEALTH
-    c_att_names_3	"Health (150/175/200)"
-    c_att_ranks_3	5,5,10
+	c_att_skill_3	MB_ATT_E_22
+	c_att_names_3	"Modified E-22 Blaster"
+	c_att_ranks_3	15,0,0
+	c_att_descs_3	"Extra knockback, +10% Damage and FP Damage"
 
-    c_att_skill_4	MB_ATT_ARMOUR
-    c_att_names_4	"Armor (150/200/250)"
-    c_att_ranks_4	5,10,10
+	c_att_skill_4	MB_ATT_HEALTH
+	c_att_names_4	"Health (150/175/200)"
+	c_att_ranks_4	10,5,5
 
-    c_att_skill_5	MB_ATT_SHIELD_RECHARGE
-    c_att_names_5	"> Armor Regen"
-    c_att_ranks_5	20
+	c_att_skill_5	MB_ATT_ARMOUR
+	c_att_names_5	"Armor (150/200/250)"
+	c_att_ranks_5	5,10,15
 
-    c_att_skill_6	MB_ATT_RESPAWNS
-    c_att_names_6	"Reinforcement"
-    c_att_ranks_6	30
+	c_att_skill_6	MB_ATT_SHIELD_RECHARGE
+	c_att_names_6	"> Armor Regen"
+	c_att_ranks_6	20
 
-    c_att_skill_7	MB_ATT_BASESPEED
-    c_att_names_7	"Speed (190/200/210)"
-    c_att_ranks_7	5,10,10
+	c_att_skill_7	MB_ATT_RESPAWNS
+	c_att_names_7	"Reinforcement"
+	c_att_ranks_7	30
+
+	c_att_skill_8	MB_ATT_BASESPEED
+	c_att_names_8	"Speed (190/200/210)"
+	c_att_ranks_8	5,10,10
 	
 	//respawncustomtime 	75000
 
@@ -137,7 +142,7 @@ WeaponInfo1
 	Icon			"gfx/hud/w_icon_t-21"
 	WeaponName		"High Velocity T-21 Blaster Rifle"
 	customAmmo 720
-	velocityMod 1.25
+	velocityMod 1.30
 	DamageMod 0.85
 }
 
@@ -185,12 +190,6 @@ Tanky gunner/brawler hybrid who can access an extra life and unique Imperial wea
 -- 12% less DMG
 -- 35% less reach
 -- 300% more radius
-- Modified KX E-11 Blaster (3)
--- Secondary Fire Only
--- +10% Rate of Fire
--- +5% FP Damage
--- +5% Velocity
--- Mag reload
 - Sonic Grenades (2)
 -- Causes Tracking upon Detonation
 
