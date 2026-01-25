@@ -72,13 +72,14 @@ SubclassesForClass3
 	Subclass3	"h5_Skirata"
 	Subclass4	"asg5_BoKatan"
 	Subclass5	"asg5_DinMando"
-	Subclass6	"asg5_Paz"
-	Subclass7	"h5_Dash"
-	Subclass8	"h6_Cross"
-	Subclass9	"h6_Andor"
-	Subclass10	"h6_Nien"
-	Subclass11 	"h6_Mission"
-	Subclass12	"asg6_RiannaS"
+	Subclass6 	"asg5_Armorer"
+	Subclass7	"asg5_Paz"
+	Subclass8	"h5_Dash"
+	Subclass9	"h6_Cross"
+	Subclass10	"h6_Andor"
+	Subclass11	"h6_Nien"
+	Subclass12 	"h6_Mission"
+	Subclass13	"asg6_RiannaS"
 }
 
 SubclassesForClass4
@@ -136,4 +137,5 @@ SubclassesForClass6
 	Subclass13	"asg10_RahmKota"
 	Subclass14	"asg10_Jaden"
 	Subclass15	"asg10_X2"
+	subclass16 	"asg10_Scourge"
 }

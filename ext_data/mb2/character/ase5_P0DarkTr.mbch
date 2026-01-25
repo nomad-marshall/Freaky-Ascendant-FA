@@ -5,11 +5,12 @@ ClassInfo
 	name 	"ase5_P0DarkTr"
 	weapons 	WP_MELEE|WP_SHOTGUN
 	
-	attributes 	MB_ATT_BLAST_ARMOUR,1|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_FUEL,3|MB_ATT_SHOTGUN,3|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_BESKAR,1|MB_ATT_ANTI_MT,2|MB_ATT_TRACKING_BEACON|MB_ATT_HEALING,3|MB_ATT_ASSEMBLE,3|MB_ATT_FUELREGEN,1|MB_ATT_DEXTERITY,2
+	attributes 	MB_ATT_BLAST_ARMOUR,1|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_FUEL,3|MB_ATT_SHOTGUN,2|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_BESKAR,1|MB_ATT_ANTI_MT,2|MB_ATT_TRACKING_BEACON|MB_ATT_HEALING,3|MB_ATT_ASSEMBLE,3|MB_ATT_FUELREGEN,1|MB_ATT_DEXTERITY,2
 	
-	maxhealth 		100
+	maxhealth 		75
 	maxarmor			100
-	rankArmor	150
+	rankHealth  100,125,150
+	rankArmor	125,150,200
 
 	modelscale 			1.05
 	damageTaken   		1.0
@@ -34,30 +35,30 @@ ClassInfo
 	isCustomBuild		1
 	mbPoints			16
 	
-	c_att_skill_0	MB_ATT_MAGNETIC_PLATING
-	c_att_names_0	"Deflector Shield (Mag Plating)"
-	c_att_ranks_0	6
-	
-	c_att_skill_1 	MB_ATT_CORTOSIS
-	c_att_names_1	"Cortosis Infused Phrik"
-	c_att_ranks_1	8
+	c_att_skill_0	MB_ATT_SHOTGUN
+	c_att_names_0	"Heavy ARC Caster"
+	c_att_ranks_0	0,0,6
+
+	c_att_skill_1	MB_ATT_PISTOL
+	c_att_names_1	"Commando Pistol"
+	c_att_ranks_1	2,0,4
+	c_att_descs_1	"+15% FP DMG, -25% DMG, +50% Faster Fire Rate, -10% Velocity"
 
 	c_att_skill_2	MB_ATT_THERMALS
 	c_att_names_2	"Thermal Detonators"
 	c_att_ranks_2	2
 
-	c_att_skill_3 	MB_ATT_PISTOL
-	c_att_names_3	"Commando Pistol"
-	c_att_ranks_3	2,0,4
-	c_att_descs_3	"+15% FP DMG, -25% DMG, +50% Faster Fire Rate, -10% Velocity"
+	c_att_skill_3	MB_ATT_RESPAWNS
+	c_att_names_3	"Reinforcement"
+	c_att_ranks_3	2
 
-	c_att_skill_4	MB_ATT_RESPAWNS
-	c_att_names_4	"Reinforcement"
-	c_att_ranks_4	2
+	c_att_skill_4	MB_ATT_HEALTH
+	c_att_names_4	"Health (100/125/150)"
+	c_att_ranks_4	2,2,4
 
 	c_att_skill_5	MB_ATT_ARMOUR
-	c_att_names_5	"Armor (150)"
-	c_att_ranks_5	4
+	c_att_names_5	"Armor (125/150/200)"
+	c_att_ranks_5	2,4,4
 	
 	model 		"darktrooper_p0"
 	skin 		"default"
@@ -147,7 +148,7 @@ To return aged veterans of the Clone Wars to peak condition, their limbs and org
 
 ^2Weaponry:
 - Melee
-- Heavy ARC Caster (Shotgun 3)
+- Heavy ARC Caster (Shotgun 2)
 --Electrifies on hit, 75% less velocity, 75% slower mag reload, 15% less damage
 
 ^8Attributes:
