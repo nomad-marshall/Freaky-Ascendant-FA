@@ -31,7 +31,7 @@ ClassInfo
 	maxhealth			125
 	maxarmor			125
 	forcepool			125
-	forceregen			.95
+	forceregen			0.95
 	MBClass				MB_CLASS_JEDI
 	speed				1.07
 	classNumberLimit  	1
