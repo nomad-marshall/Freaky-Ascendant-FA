@@ -26,6 +26,7 @@ classinfo
 	forcepool	100
 	modelscale	.96
 	wp_saberflags	HELD_SPEED
+	classnumberlimit	1
 }
 
 weaponinfo0
