@@ -7,7 +7,7 @@ classinfo
 	MBClass	MB_CLASS_MANDALORIAN
 	maxarmor	200
 	maxhealth	125
-	attributes	MB_ATT_SHIELD_RECHARGE,2|MB_ATT_BESKAR,3|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_DISP_ARMOR,3|MB_ATT_STAMINA,3|MB_ATT_GETUPS,4|MB_ATT_GUN_DEFENSE,2|MB_ATT_DEFLECT,1|MB_ATT_SABER_COMBO,2|MB_ATT_RALLY|MB_ATT_DODGE,3
+	attributes	MB_ATT_SHIELD_RECHARGE,2|MB_ATT_BESKAR,3|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_DISP_ARMOR,3|MB_ATT_STAMINA,3|MB_ATT_GETUPS,4|MB_ATT_GUN_DEFENSE,1|MB_ATT_DEFLECT,1|MB_ATT_SABER_COMBO,2|MB_ATT_RALLY|MB_ATT_DODGE,3
 	resource	resource_stamina
 	special1	EAS_HI_SPRINT
 	special2	EAS_HI_KICK
@@ -22,10 +22,11 @@ classinfo
 	saber2color	6
 	classflags	CFL_STRONGAGAINSTPHYSICAL
 	BPmultiplier	1.04
-	APmultiplier	1.15
+	APmultiplier	1.07
 	forcepool	100
 	modelscale	.96
 	wp_saberflags	HELD_SPEED
+	classnumberlimit	1
 }
 
 weaponinfo0
@@ -51,7 +52,7 @@ A Tanky Melee Mandalorian armed with Hammer & Tong.
 -- Can Block Blasters/Sabers
 -- Deflect (1)
 -- Saber Defense (3)
--- Gun Defense (2)
+-- Gun Defense (1)
 -- EX Saber Combos (2)
 -- Cannot be Thrown
 -- Increased Movement when held
@@ -59,7 +60,7 @@ A Tanky Melee Mandalorian armed with Hammer & Tong.
 ^7Attributes:
 - Beskar (3)
 - Stamina ^3[CS1] (3)
-- Kick ^3[CS2]
+- Slap/Kick ^3[CS2]
 - Dodge ^3[CS3] (3)
 > Armor Dispenser (3)
 -- Hold Use on Allies
