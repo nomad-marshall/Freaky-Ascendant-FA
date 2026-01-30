@@ -25,9 +25,12 @@ ClassInfo
 	hackrate		0.65
 
 	modelscale 	0.933
-	model 		"isb_agont"
-	skin  		"default"
-	uishader  	"models/players/isb_agont/icon_default"
+	model		"agentkallus"
+	skin		"default"
+	uishader		"models/players/agentkallus/mb2_icon_default"
+	model_1 		"isb_agont"
+	skin_1 		"default"
+	uishader_1  	"models/players/isb_agont/icon_default"
 	
 	forcepool 	125
 	forceregen	1.8
