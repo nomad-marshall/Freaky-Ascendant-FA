@@ -24,7 +24,9 @@ ClassInfo
 	rateoffire			1
 	rateoffire_melee 0.9
 	damagegiven			1.00
+	damageTaken 		1.00
 	speed       			0.9
+	knockbackTaken		1.2
 
 	WP_FragNadeFlags		HELD_POISON	
 	WP_PLX1Flags 			HELD_SLOW|HELD_STUN|HELD_KNOCKBACK|HELD_POISON|HELD_FLAME
@@ -44,7 +46,7 @@ ClassInfo
 	
 	uioverlay "gfx/icons/heavy"
 	
-	damageTaken 		1.00
+	
 	
 	flourishAnim BOTH_THROW1
 }
@@ -86,7 +88,7 @@ WeaponInfo1
 	Icon				"gfx/hud/w_icon_t-10"
 	WeaponName			"Saw's RPG"
 	FlashSound0 		 	"sound/weapons/SawRPG/fire.wav"
-	CustomAmmo 10
+	CustomAmmo 8
 	ReloadTimeModifier 	0.9
 	velocityMod 2.0
 	damageMod 0.50
@@ -114,7 +116,7 @@ A heavy gunner equipped with a modified Pistol, Unique RPG, and other explosives
 
 ^2Weaponry:
 - Melee
-- Saw's Rhydonium RPG (10) (PLX)
+- Saw's Rhydonium RPG (8) (PLX)
 -- Staggers/pushes on hit
 -- 100% more Velocity
 -- 50% Less Damage
@@ -138,6 +140,7 @@ A heavy gunner equipped with a modified Pistol, Unique RPG, and other explosives
 - Rhydonium Strength (STR 1)
 - Blast Armor
 - Rally
+- +20% Knockback Taken
 
 ^3Abilities:
 - Rhydonium Rage (Dark Rage 3) ^3[CS1]

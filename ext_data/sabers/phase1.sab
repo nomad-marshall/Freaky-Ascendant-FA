@@ -17,7 +17,7 @@ phase1
 	trailStyle	2
 	bounceOnWalls	0
 	idleInBack	1
-	boltToWrist	1
+	boltToWrist	0
 	alwaysBlock	0
 	damagescale	1.0
 	disarmable   0
