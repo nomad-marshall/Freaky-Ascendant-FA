@@ -2,7 +2,7 @@
 
 classinfo
 {
-	name	"ase10_kallig"
+	name	"ase10_Kallig"
 	mbclass	MB_CLASS_JEDI
 	maxhealth	100
 	forcepool	100
