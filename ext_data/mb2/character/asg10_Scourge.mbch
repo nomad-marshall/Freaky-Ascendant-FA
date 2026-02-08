@@ -6,20 +6,8 @@ ClassInfo
 	attributes			MB_ATT_DEFLECT,2|MB_ATT_FORCEBLOCK,3|MB_ATT_FORCEFOCUS,2|MB_ATT_GUN_DEFENSE,1|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_ROSHTAUNT,1|MB_ATT_WOOKIEE_FURY,2
 	
 	saberstyle SS_STRONG|SS_DESANN|SS_MEDIUM
-	saber1			saber_desann_legends
+	saber1			lord_scourge
 	sabercolor		0
-
-	saber1_1			saber_bane_leg
-	sabercolor_1		0
-	
-	saber1_2			saber_bane2_leg
-	sabercolor_2		0
-	
-	saber1_3			saber_malgus_legends
-	sabercolor_3		0
-	
-	saber1_4			saber_malgus_broken_leg
-	sabercolor_4		0
 
 	saber1_5			tyrant_leg
 	sabercolor_5		0

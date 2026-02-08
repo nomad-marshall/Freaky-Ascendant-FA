@@ -97,8 +97,8 @@ SubclassesForClass4
 	Subclass12	"h8_NRSecDroid"
 	Subclass13	"h8_Wreck"
 	Subclass14	"h8_Chewie"
-	Subclass15	"h8_Tarfful"
-	Subclass16	"h8_Zaal"
+	Subclass15 	"h8_Tarfful"
+	Subclass16	"asg8_Zaal"
 	Subclass17	"asg8_K2SO"
 	Subclass18	"asg8_Zeb"
 }
