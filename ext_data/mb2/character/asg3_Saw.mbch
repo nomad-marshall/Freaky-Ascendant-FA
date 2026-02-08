@@ -26,7 +26,7 @@ ClassInfo
 	damagegiven			1.00
 	damageTaken 		1.00
 	speed       			0.9
-	knockbackTaken		1.2
+	knockbackTaken		2.0
 
 	WP_FragNadeFlags		HELD_POISON	
 	WP_PLX1Flags 			HELD_SLOW|HELD_STUN|HELD_KNOCKBACK|HELD_POISON|HELD_FLAME
@@ -123,7 +123,8 @@ A heavy gunner equipped with a modified Pistol, Unique RPG, and other explosives
 -- 10% Faster Reload
 -- 15% slower movement
 -- Inflicts Poison and Burn Damage
-- Rhydonium Grenades (3) (Frag)
+- Rhydonium Grenades (3)
+--Based on Frag Grenades
 -- Inflicts Poison Damage
 - Fire Grenades (2)
 - Saw's Modified Pistol (Pistol 3)

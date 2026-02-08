@@ -15,7 +15,7 @@ ClassInfo
 	forceregen   		1.15
 	speed				1.06
 	special1			EAS_FP_SABERTHROW
-	special2            EAS_MELEE
+	special2            EAS_FP_GRIP
 	special3            EAS_FP_TEAM_FORCE
 	special4            EAS_FP_PULL
 	
@@ -71,12 +71,11 @@ A Jedi General who led his private army instead of Clone Troopers. Inferior sabe
 -- Blaster Defense (2)
 -- Saber Deflect (3)
 -- EX Saber Throw (3) ^3[CS1]
--- Slap ^3[CS2]
 
 ^5Force Powers:
 - Jump (3)
 - Push (3)
-- Grip (2)
+- Grip (2) ^3[CS2]
 - Team Energize (2) ^3[CS3]
 - Pull (2) ^3[CS4]
 
