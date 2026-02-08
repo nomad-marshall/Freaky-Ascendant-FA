@@ -20,7 +20,7 @@ ClassInfo
 	saberDamage 110
 	
 	resource		RESOURCE_RAGE
-	resourceRegenCap 25
+	resourceRegenCap 50
 	resourceRegenRate 250
 	resourceRegenAmount 1
 	forcepool 	150

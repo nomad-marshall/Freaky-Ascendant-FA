@@ -58,26 +58,26 @@ ClassInfo
     WP_SonicNadeFlags HELD_TRACKING
 
     isCustomBuild 1
-	mbPoints 60
+	mbPoints 70
 
     c_att_skill_0	MB_ATT_WOOKIE_STRENGTH
 	c_att_names_0	"Droid Strength"
-	c_att_ranks_0	0,0,25
+	c_att_ranks_0	0,0,30
 
     c_att_skill_1	MB_ATT_BLASTER
 	c_att_names_1	"Modified KX E-11 Blaster"
 	c_att_ranks_1	10,0,5
-	c_att_descs_1	"Secondary Fire Only. +5% FP DMG & Velocity, & Mag Reload"
+	c_att_descs_1	"Secondary Fire Only. -15% Dmg, +5% FP DMG & Velocity, & Mag Reload"
 
 	c_att_skill_2	MB_ATT_T21
 	c_att_names_2	"Hypervelocity T21 Blaster Rifle"
 	c_att_ranks_2	20,0,0
-	c_att_descs_2	"+30% Velocity & Mag Reload"
+	c_att_descs_2	"-15% Dmg, +30% Velocity & Mag Reload"
 
 	c_att_skill_3	MB_ATT_E_22
 	c_att_names_3	"Modified E-22 Blaster"
 	c_att_ranks_3	20,0,0
-	c_att_descs_3	"+10% FP Damage & Mag Reload"
+	c_att_descs_3	"-15% Dmg, +10% FP Damage & Mag Reload"
 
 	c_att_skill_4	MB_ATT_HEALTH
 	c_att_names_4	"Health (150/175/200)"
@@ -89,7 +89,7 @@ ClassInfo
 
 	c_att_skill_6	MB_ATT_RESPAWNS
 	c_att_names_6	"Reinforcement"
-	c_att_ranks_6	30
+	c_att_ranks_6	35
 
 	c_att_skill_7	MB_ATT_BASESPEED
 	c_att_names_7	"Speed (190/200/210)"
@@ -151,6 +151,7 @@ WeaponInfo2
 	WeaponName		"High Powered E-22 Blaster Rifle"
 	customAmmo 720
     FPMult 1.10
+	DamageMod 0.85
 }
 
 WeaponInfo3
