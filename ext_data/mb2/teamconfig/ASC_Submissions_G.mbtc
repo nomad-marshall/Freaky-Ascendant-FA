@@ -92,7 +92,7 @@ SubclassesForClass4
 	Subclass6	"h7_Leia"
 	Subclass7	"h7_Lobot"
 	Subclass8  	"asg7_Mira"
-	Subclass9	"h7_HK47"
+	Subclass9	"asg7_HK47"
 	Subclass10	"h7_T3M4"
 	Subclass11 	"h8_WookWarr"
 	Subclass12	"h8_NRSecDroid" 
@@ -122,13 +122,13 @@ SubclassesForClass5
 
 SubclassesForClass6
 {
-	Subclass1	"h10_Obi"
+	Subclass1	"asg10_Obi"
 	Subclass2	"h10_PloK"
 	Subclass3	"asg10_JTradition"
 	Subclass4	"asg10_JHeal"
 	Subclass5	"h10_LukeSky"
 	Subclass6	"h10_Starkiller"
-	Subclass7	"h10_JSavant"
+	Subclass7	"asg10_JSavant"
 	Subclass8	"h10_JApostate"
 	Subclass9	"h10_Rosh"
 	Subclass10	"asg10_Grogu"

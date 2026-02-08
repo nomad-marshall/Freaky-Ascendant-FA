@@ -47,10 +47,10 @@ ClassInfo
 	saberStanceAnim	BOTH_TAVION_STANCE 
 	walkForward 	 	BOTH_WALK2
 
-	special1 	EAS_FP_SEE
-	special2	EAS_FP_PULL	
+	special1 	EAS_NONE
+	special2	EAS_NONE	
 	special3	EAS_HI_DEX
-	special4	EAS_FP_GRIP
+	special4	EAS_NONE
 
 	//respawncustomtime  50000
 
