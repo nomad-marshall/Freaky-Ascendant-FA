@@ -35,12 +35,12 @@ ClassInfo
 	mbPoints			10
 	
 	c_att_skill_0    MB_ATT_FRAGS
-	c_att_names_0    "Conflagrine-14 Infused Frags"
+	c_att_names_0    "Conflagrine-14 Frags"
 	c_att_ranks_0    2,2
 	c_att_descs_0    "Ignites upon damage, Splash Radius 300, -35% Damage"
 
 	c_att_skill_1    MB_ATT_MICRO_GRENADES
-	c_att_names_1    "Dark Trooper Concussion Grenades"
+	c_att_names_1    "DT Concussion Grenades"
 	c_att_ranks_1    1,2
 	c_att_descs_1    "Staggers, tracks, & sonics upon damage. -50% Damage"
 
@@ -53,8 +53,9 @@ ClassInfo
 	c_att_ranks_3    2
 
 	c_att_skill_4    MB_ATT_MAGNETIC_PLATING
-	c_att_names_4    "Deflector Shield (Mag Plating)"
+	c_att_names_4    "Deflector Shield"
 	c_att_ranks_4    6
+	c_att_descs_4    "Mag Plating"
 
 	c_att_skill_5    MB_ATT_CORTOSIS
 	c_att_names_5    "Cortosis Infused Phrik"

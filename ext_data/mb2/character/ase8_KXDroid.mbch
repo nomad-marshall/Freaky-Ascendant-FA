@@ -6,7 +6,7 @@ ClassInfo
 	MBClass 			MB_CLASS_WOOKIE
 	weapons 	WP_SONIC_NADE|WP_MELEE|WP_SABER
 	
-	attributes  MB_ATT_SONIC_DETONATOR,2|MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_CORTOSIS,1|MB_ATT_BESKAR,2|MB_ATT_ANTI_MT,2|MB_ATT_WOOKIEE_FURY,2|MB_ATT_TRACKING_BEACON|MB_ATT_ENV_PROT,1
+	attributes  MB_ATT_SONIC_DETONATOR,1|MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_CORTOSIS,1|MB_ATT_BESKAR,2|MB_ATT_ANTI_MT,2|MB_ATT_WOOKIEE_FURY,2|MB_ATT_TRACKING_BEACON|MB_ATT_ENV_PROT,1
 	
     classNumberLimit  	2
 	resource 		RESOURCE_RAGE
@@ -67,10 +67,10 @@ ClassInfo
     c_att_skill_1	MB_ATT_BLASTER
 	c_att_names_1	"Modified KX E-11 Blaster"
 	c_att_ranks_1	10,0,5
-	c_att_descs_1	"Secondary Fire Only. -15% Dmg, +5% FP DMG & Velocity, & Mag Reload"
+	c_att_descs_1	"Sec. Fire Only. -15% Dmg, +5% FP DMG & Velocity, & Mag Reload"
 
 	c_att_skill_2	MB_ATT_T21
-	c_att_names_2	"Hypervelocity T21 Blaster Rifle"
+	c_att_names_2	"Hypervelocity T21 Rifle"
 	c_att_ranks_2	20,0,0
 	c_att_descs_2	"-15% Dmg, +30% Velocity & Mag Reload"
 
