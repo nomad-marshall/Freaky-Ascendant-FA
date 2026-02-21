@@ -4,7 +4,7 @@ ClassInfo
 {
 	name  				"asg3_Saw"
 	weapons 			WP_MELEE|WP_BLASTER_PISTOL|WP_FIRE_NADE|WP_FRAG_NADE|WP_PLX1
-	attributes  		MB_ATT_AMMO,3|MB_ATT_HEALING,1|MB_ATT_FIRE_GRENADES,2|MB_ATT_PISTOL,3|MB_ATT_FRAGS,3|MB_ATT_BESKAR,2|MB_ATT_PLX1,1|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_GRAPPLE_HOOK,2|MB_ATT_RALLY|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_DASH,1|MB_ATT_TRACKING_BEACON|MB_ATT_WOOKIEE_FURY,2|MB_ATT_BLAST_ARMOUR,1
+	attributes  		MB_ATT_AMMO,3|MB_ATT_HEALING,2|MB_ATT_PISTOL,3|MB_ATT_FRAGS,4|MB_ATT_BESKAR,2|MB_ATT_PLX1,1|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_GRAPPLE_HOOK,2|MB_ATT_RALLY|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_DASH,1|MB_ATT_TRACKING_BEACON|MB_ATT_WOOKIEE_FURY,2|MB_ATT_BLAST_ARMOUR,1|MB_ATT_ENV_PROT,1|MB_ATT_FLOAT_HOP
 	maxhealth 			130
 	maxarmor  			150
 	forcepowers   FP_RAGE,3
@@ -26,9 +26,9 @@ ClassInfo
 	damagegiven			1.00
 	damageTaken 		1.00
 	speed       			0.9
-	knockbackTaken		2.0
+	knockbackTaken		1.5
 
-	WP_FragNadeFlags		HELD_POISON	
+	WP_FragNadeFlags		HELD_POISON|HELD_FLAME
 	WP_PLX1Flags 			HELD_SLOW|HELD_STUN|HELD_KNOCKBACK|HELD_POISON|HELD_FLAME
 		
 	modelscale    		1.05
@@ -96,18 +96,21 @@ WeaponInfo1
 
 WeaponInfo2
 {
-WeaponToReplace	WP_FRAG_NADE
-WeaponBasedOff	WP_CONC_NADE
-NewWorldModel	"models/weapons/Grenade_Concussion/model.glm"
-NewViewModel	"models/weapons/Grenade_Concussion/viewmodel.md3"
-Icon	"gfx/hud/w_icon_stungrenade"
-WeaponName	"Rhydonium Grenade"
-MissileModel	"models/weapons/Grenade_Concussion/proj.md3"
-MissileEffect	"effects/Grenades/GlowGasB"
-AltMissileEffect	"effects/Grenades/GlowGasB"
-MissileMissEffect	"effects/Grenades/EXP_Gas"
-altMissileMissEffect	"effects/Grenades/EXP_Gas"
-ratemod	1.5
+	WeaponToReplace	WP_FRAG_NADE
+	WeaponBasedOff	WP_CONC_NADE
+	NewWorldModel	"models/weapons/Grenade_Concussion/model.glm"
+	NewViewModel	"models/weapons/Grenade_Concussion/viewmodel.md3"
+	Icon	"gfx/hud/w_icon_stungrenade"
+	WeaponName	"Rhydonium Grenade"
+	MissileModel	"models/weapons/Grenade_Concussion/proj.md3"
+	MissileEffect	"effects/Grenades/GlowGasB"
+	AltMissileEffect	"effects/Grenades/GlowGasB"
+	MissileMissEffect	"effects/Grenades/EXP_Gas"
+	altMissileMissEffect	"effects/Grenades/EXP_Gas"
+	damageMod 0.70
+	splashRadius 300
+	splashDamage 1.1
+	ratemod	1.5
 }
 
 description	"Saw Gerrera [Hero]
@@ -118,19 +121,22 @@ A heavy gunner equipped with a modified Pistol, Unique RPG, and other explosives
 - Melee
 - Saw's Rhydonium RPG (8) (PLX)
 -- Staggers/pushes on hit
--- 100% more Velocity
--- 50% Less Damage
--- 10% Faster Reload
--- 15% slower movement
+-- +100% Velocity
+-- -50% Damage
+-- +10% Reload Speed
+-- -15% Movement Speed
 -- Inflicts Poison and Burn Damage
 - Rhydonium Grenades (3)
 --Based on Frag Grenades
 -- Inflicts Poison Damage
+-- -30% Damage
+-- 300 Splash Radius
+-- +10% Splash Damage
 - Fire Grenades (2)
 - Saw's Modified Pistol (Pistol 3)
--- 30% less DMG
--- 20% faster RoF
--- 15% more FP DMG
+-- -30% Damage
+-- +20% Rate of Fire
+-- +15% FP Damage
 
 ^8Attributes:
 - Armor Regen (1)
@@ -141,7 +147,9 @@ A heavy gunner equipped with a modified Pistol, Unique RPG, and other explosives
 - Rhydonium Strength (STR 1)
 - Blast Armor
 - Rally
-- +20% Knockback Taken
+- +50% Knockback Taken
+- Environmental Protection (1)
+- Slow Faller
 
 ^3Abilities:
 - Rhydonium Rage (Dark Rage 3) ^3[CS1]

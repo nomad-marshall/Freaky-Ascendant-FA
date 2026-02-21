@@ -7,8 +7,8 @@ phase1
 	soundLoop	"s/w/shwartz/saberhum1.wav"
 	soundOff		"sound/effects/null.wav"
 	numblades	1
-	saberLength	40
-	saberLength2	40
+	saberLength	30
+	saberLength2	30
 	noDlight	1
 	noBlade		1
 	noIdleEffect	1

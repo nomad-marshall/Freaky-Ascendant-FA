@@ -7,7 +7,7 @@ ClassInfo
 	classNumberLimit		1
 	weapons 	WP_A280|WP_MELEE|WP_SABER
 	
-	attributes  MB_ATT_A280,2|MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_CORTOSIS,1|MB_ATT_BESKAR,3|MB_ATT_ANTI_MT,2|MB_ATT_WOOKIEE_FURY,2|MB_ATT_TRACKING_BEACON
+	attributes  MB_ATT_A280,2|MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_CORTOSIS,1|MB_ATT_BESKAR,3|MB_ATT_ANTI_MT,2|MB_ATT_WOOKIEE_FURY,2|MB_ATT_TRACKING_BEACON|MB_ATT_ENV_PROT,1
 	armourRegenCap 100
 	armourRegenAmount	1
 	armourRegenRate		1500
@@ -114,21 +114,21 @@ An exceptionally sturdy tank with protection against multiple Force powers and d
 ^2Weaponry:
 - Melee
 -- Flat KB: 150
--- 25% slower RoF
--- 15% slower movement
+-- -25% Rate of Fire
+-- -15% Movement Speed
 - Droid Spankers (Cyan Saber)
 -- No Saber/Blaster Block
 -- Chain Limit: 1
 -- Staggers/knocks down on hit
--- 165% more KB
--- 5% faster movement
--- 100% more special DMG
--- 12% less DMG
--- 35% less reach
--- 300% more radius
--- Slap ^3[CS2]
+-- +165% Knockback
+-- +5% Movement Speed
+-- +100% Special Damage
+-- -12% Damage
+-- -35% Reach
+-- +300% Radius
+-- Slap ^3[GB]
 - SE-14r Light Repeating Blaster (A280 2)
--- 10% more FP DMG
+-- +10% FP Damage
 -- Mag reload
 
 ^5Powers:
@@ -136,8 +136,8 @@ An exceptionally sturdy tank with protection against multiple Force powers and d
 
 ^8Attributes:
 - Armor Regen: 1/1.5s to 100
-- 10% more KB given
-- 50% less KB taken
+- +10% Knockback Given
+- -50% Knockback Taken
 - Fury (2)
 - Strength (3)
 - Beskar (3)
@@ -146,4 +146,5 @@ An exceptionally sturdy tank with protection against multiple Force powers and d
 - Physical Resist
 - Sense Immunity
 - Anti-Mind Trick (2)
+- Environmental Protection (1)
 - Tracking Beacon"

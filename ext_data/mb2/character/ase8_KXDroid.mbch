@@ -6,7 +6,7 @@ ClassInfo
 	MBClass 			MB_CLASS_WOOKIE
 	weapons 	WP_SONIC_NADE|WP_MELEE|WP_SABER
 	
-	attributes  MB_ATT_SONIC_DETONATOR,2|MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_CORTOSIS,1|MB_ATT_BESKAR,2|MB_ATT_ANTI_MT,2|MB_ATT_WOOKIEE_FURY,2|MB_ATT_TRACKING_BEACON
+	attributes  MB_ATT_SONIC_DETONATOR,2|MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_CORTOSIS,1|MB_ATT_BESKAR,2|MB_ATT_ANTI_MT,2|MB_ATT_WOOKIEE_FURY,2|MB_ATT_TRACKING_BEACON|MB_ATT_ENV_PROT,1
 	
     classNumberLimit  	2
 	resource 		RESOURCE_RAGE
@@ -89,11 +89,11 @@ ClassInfo
 
 	c_att_skill_6	MB_ATT_RESPAWNS
 	c_att_names_6	"Reinforcement"
-	c_att_ranks_6	35
+	c_att_ranks_6	30
 
 	c_att_skill_7	MB_ATT_BASESPEED
 	c_att_names_7	"Speed (190/200/210)"
-	c_att_ranks_7	5,10,5
+	c_att_ranks_7	5,5,10
 	
 	//respawncustomtime 	75000
 
@@ -173,18 +173,18 @@ Tanky gunner/brawler hybrid who can access an extra life and unique Imperial wea
 ^2Weaponry:
 - Melee
 -- Flat KB: 150
--- 25% slower RoF
--- 15% slower movement
+-- -25% Rate of Fire
+-- -15% Movement Speed
 - Droid Spankers (Cyan Saber)
 -- No Saber/Blaster Block
 -- Chain Limit: 1
 -- Staggers on hit
--- 165% more KB
--- 5% faster movement
--- 100% more special DMG
--- 12% less DMG
--- 35% less reach
--- 300% more radius
+-- +165% Knockback
+-- +5% Movement Speed
+-- +100% Special Damage
+-- -12% Damage
+-- -35% Reach
+-- +300% Radius
 - Sonic Grenades (2)
 -- Causes Tracking upon Detonation
 
@@ -192,8 +192,8 @@ Tanky gunner/brawler hybrid who can access an extra life and unique Imperial wea
 - Droid Rage (3) ^3[CS1]
 
 ^8Attributes:
-- 10% more KB given
-- 50% less KB taken
+- +10% Knockback Given
+- -50% Knockback Taken
 - Fury (2)
 - Strength (2)
 - Beskar (2)
@@ -202,4 +202,5 @@ Tanky gunner/brawler hybrid who can access an extra life and unique Imperial wea
 - Physical Resist
 - Sense Immunity
 - Anti-Mind Trick (2)
+- Environmental Protection (1)
 - Tracking Beacon"

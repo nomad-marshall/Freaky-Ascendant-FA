@@ -5,7 +5,7 @@ ClassInfo
 	name 	"ase5_P3DarkTr"
 	weapons 	WP_MELEE|WP_BOWCASTER|WP_ROCKET_LAUNCHER
 	
-	attributes 	MB_ATT_BLAST_ARMOUR,1|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_FUEL,3|MB_ATT_ROCKET_LAUNCHER|MB_ATT_BOWCASTER,3|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_BESKAR,3|MB_ATT_ANTI_MT,2|MB_ATT_TRACKING_BEACON|MB_ATT_HEALING,1
+	attributes 	MB_ATT_BLAST_ARMOUR,1|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_FUEL,3|MB_ATT_ROCKET_LAUNCHER|MB_ATT_BOWCASTER,3|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_BESKAR,3|MB_ATT_ANTI_MT,2|MB_ATT_TRACKING_BEACON|MB_ATT_HEALING,1|MB_ATT_ENV_PROT,3
 	
 	maxhealth 		100
 	maxarmor			250
@@ -19,9 +19,12 @@ ClassInfo
 	knockbackgiven		1.2
 	knockbacktaken		0.8
 	
-	classflags	CFL_STRONGAGAINSTPHYSICAL|CFL_BLOODYMELEE|CFL_NOLOCATIONALDAMAGE
+	classflags	CFL_STRONGAGAINSTPHYSICAL|CFL_BLOODYMELEE
 	
 	WP_RocketLauncherFlags 	HELD_ALTRELOAD|HELD_KNOCKBACK
+	WP_FragNadeFlags		HELD_FLAME|HELD_KNOCKBACK
+	WP_MeleeFlags			HELD_SPEED
+	WP_ConcNadeFlags		HELD_STUN|HELD_SONIC|HELD_LOWDAMAGE|HELD_TRACKING
 
 	bargeSoundOverride 		"sound/chars/k2so/misc/death2.mp3" //placeholder
 
@@ -31,33 +34,35 @@ ClassInfo
 	isCustomBuild		1
 	mbPoints			10
 	
-	c_att_skill_0	MB_ATT_RESPAWNS
-	c_att_names_0	"Reinforcement"
-	c_att_ranks_0	10
-	
-	c_att_skill_1	MB_ATT_MAGNETIC_PLATING
-	c_att_names_1	"Deflector Shield (Mag Plating)"
-	c_att_ranks_1	6
-	
-	c_att_skill_2 	MB_ATT_CORTOSIS
-	c_att_names_2	"Cortosis Infused Phrik"
-	c_att_ranks_2	7
+	c_att_skill_0    MB_ATT_FRAGS
+	c_att_names_0    "Conflagrine-14 Infused Frags"
+	c_att_ranks_0    2,2
+	c_att_descs_0    "Ignites upon damage, Splash Radius 300, -35% Damage"
 
-	c_att_skill_3 	MB_ATT_ARMOUR
-	c_att_names_3	"Armor (300)"
-	c_att_ranks_3	2
+	c_att_skill_1    MB_ATT_MICRO_GRENADES
+	c_att_names_1    "Dark Trooper Concussion Grenades"
+	c_att_ranks_1    1,2
+	c_att_descs_1    "Staggers, tracks, & sonics upon damage. -50% Damage"
 
-	c_att_skill_4 	MB_ATT_MICRO_GRENADES
-	c_att_names_4	"Concussion Grenades"
-	c_att_ranks_4	1,2
+	c_att_skill_2    MB_ATT_THERMALS
+	c_att_names_2    "Thermal Detonator"
+	c_att_ranks_2    4
 
-	c_att_skill_5 	MB_ATT_THERMALS
-	c_att_names_5	"Thermal Detonator"
-	c_att_ranks_5	4
+	c_att_skill_3    MB_ATT_ARMOUR
+	c_att_names_3    "Armor (300)"
+	c_att_ranks_3    2
 
-	c_att_skill_6	MB_ATT_FRAGS
-	c_att_names_6	"Frag Grenades"
-	c_att_ranks_6	2,2
+	c_att_skill_4    MB_ATT_MAGNETIC_PLATING
+	c_att_names_4    "Deflector Shield (Mag Plating)"
+	c_att_ranks_4    6
+
+	c_att_skill_5    MB_ATT_CORTOSIS
+	c_att_names_5    "Cortosis Infused Phrik"
+	c_att_ranks_5    7
+
+	c_att_skill_6    MB_ATT_RESPAWNS
+	c_att_names_6    "Reinforcement"
+	c_att_ranks_6    10
 	
 	model 	"darktrooper_p3"
 	skin  	"default"
@@ -140,11 +145,32 @@ animReadyWalk BOTH_PLX1_READY
 animAttackRun BOTH_PLX1_ATTACK
 animAttack BOTH_PLX1_ATTACK
 animAttackWalk BOTH_PLX1_ATTACK
-	CustomAmmo 			8
-	clipSize 			4
-	ReloadTimeModifier 	1.6
+	CustomAmmo 			12
+	clipSize 			6
+	ReloadTimeModifier 	3.5
 	velocityMod 1.25
-	rateMod 1.25
+	damageMod 0.40
+	rateMod 0.25
+	splashDamage 1.1
+	splashRadius 150
+}
+
+WeaponInfo2
+{
+	WeaponToReplace			WP_FRAG_NADE
+	WeaponBasedOff			WP_FRAG_NADE
+	NewWorldModel			"models/weapons2/fraggrenade/thermal_w.glm"
+	NewViewModel			"models/weapons2/fraggrenade/thermal_hand.md3"
+	MissileModel 			"models/weapons2/fraggrenade/thermal_proj.md3"
+	MissileMissEffect	"Grenades/EXP_Explosion"
+	missileHitHumanEffect		"Grenades/EXP_Explosion"
+	missileHitDroidEffect		"Grenades/EXP_Explosion"
+ 	MissileEffect "repeater/projectile"
+	
+	Icon						"gfx/hud/w_icon_fraggrenade"
+	WeaponName	"Conflagrine-14 Infused Grenade"
+	damageMod 0.65
+	splashRadius 300
 }
 
 description	"Dark Trooper Phase III [Wookiee] ^3Reworked 
@@ -154,18 +180,21 @@ A Jetpack-equipped tank with a high-powered Assault Cannon and Rocket Launcher.
 ^2Weaponry:
 - Melee
 - Assault Cannon (Bowcaster 3)
--- 5% faster RoF
--- 10% more DMG
-- Assault Cannon Rocket Attachment (12) (RL)
+-- +5% Rate of Fire
+-- +10% Damage
+- Assault Cannon Rocket Attachment (18) (RL)
 -- Pushes on hit
--- 25% more velocity
--- 25% slower RoF
--- 60% slower mag reload
+-- +25% Velocity
+-- +75% Rate of Fire
+-- -60% Damage
+-- -250% Reload Speed (Mag Reload)
+-- +10% Splash Radius
+-- +10% Splash Damage
 -- Homing Rockets ^3[Hold Sec. ^3fire]
 
 ^8Attributes:
-- 20% more KB given
-- 20% less KB taken
+- +20% Knockback Given
+- -20% Knockback Taken
 - Strength (2)
 - Phrik Armor (Beskar 3)
 - Blast Armor
@@ -174,6 +203,7 @@ A Jetpack-equipped tank with a high-powered Assault Cannon and Rocket Launcher.
 - Anti-Mind Trick (2)
 - Tracking Beacon
 - Healing (1)
+- Environmental Protection (3)
 
 ^3Abilities:
 - Jetpack
