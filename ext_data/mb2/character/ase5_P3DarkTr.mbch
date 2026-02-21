@@ -147,13 +147,11 @@ animAttackRun BOTH_PLX1_ATTACK
 animAttack BOTH_PLX1_ATTACK
 animAttackWalk BOTH_PLX1_ATTACK
 	CustomAmmo 			12
-	clipSize 			6
-	ReloadTimeModifier 	3.5
+	clipSize 			4
+	ReloadTimeModifier 	3.0
 	velocityMod 1.25
 	damageMod 0.40
 	rateMod 0.25
-	splashDamage 1.1
-	splashRadius 150
 }
 
 WeaponInfo2
@@ -189,8 +187,6 @@ A Jetpack-equipped tank with a high-powered Assault Cannon and Rocket Launcher.
 -- +75% Rate of Fire
 -- -60% Damage
 -- -250% Reload Speed (Mag Reload)
--- +10% Splash Radius
--- +10% Splash Damage
 -- Homing Rockets ^3[Hold Sec. ^3fire]
 
 ^8Attributes:

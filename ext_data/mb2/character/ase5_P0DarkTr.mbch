@@ -56,11 +56,11 @@ ClassInfo
 
 	c_att_skill_4	MB_ATT_HEALTH
 	c_att_names_4	"Health (100/125/150)"
-	c_att_ranks_4	2,2,4
+	c_att_ranks_4	2,2,2
 
 	c_att_skill_5	MB_ATT_ARMOUR
 	c_att_names_5	"Armor (125/150/200)"
-	c_att_ranks_5	2,4,2
+	c_att_ranks_5	2,2,4
 	
 	model 		"darktrooper_p0"
 	skin 		"default"

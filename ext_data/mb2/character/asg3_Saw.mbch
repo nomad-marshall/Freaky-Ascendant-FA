@@ -108,8 +108,6 @@ WeaponInfo2
 	MissileMissEffect	"effects/Grenades/EXP_Gas"
 	altMissileMissEffect	"effects/Grenades/EXP_Gas"
 	damageMod 0.70
-	splashRadius 300
-	splashDamage 1.1
 	ratemod	1.5
 }
 
@@ -130,9 +128,6 @@ A heavy gunner equipped with a modified Pistol, Unique RPG, and other explosives
 --Based on Frag Grenades
 -- Inflicts Poison Damage
 -- -30% Damage
--- 300 Splash Radius
--- +10% Splash Damage
-- Fire Grenades (2)
 - Saw's Modified Pistol (Pistol 3)
 -- -30% Damage
 -- +20% Rate of Fire
@@ -141,7 +136,7 @@ A heavy gunner equipped with a modified Pistol, Unique RPG, and other explosives
 ^8Attributes:
 - Armor Regen (1)
 - Healing (1)
-- Beskar 2
+- Beskar (2)
 - Physical Resist
 - Rhydonium Fury (Fury 2)
 - Rhydonium Strength (STR 1)

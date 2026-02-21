@@ -14,7 +14,7 @@ ClassInfo
 	WP_DetPackFlags  HELD_TRACKING
 	WP_ProjFlags HELD_TRACKING|HELD_POISON
 	
-	attributes		MB_ATT_FP_SABER_DEFENSE,2|MB_ATT_HEALING,1|MB_ATT_PISTOL,3|MB_ATT_SPY_DISGUISE,2|MB_ATT_FORCEBLOCK,2|MB_ATT_DEXTERITY,2|MB_ATT_TRACKING_DART,3|MB_ATT_TRACKING_BEACON|MB_ATT_FLIPKICK,1|MB_ATT_DET_PACK,3|MB_ATT_GUN_DEFENSE,1|MB_ATT_KNOCKDOWN_ROLL|MB_ATT_ENV_PROT,1|MB_ATT_BLAST_ARMOUR,1
+	attributes		MB_ATT_FP_SABER_DEFENSE,2|MB_ATT_HEALING,1|MB_ATT_PISTOL,3|MB_ATT_SPY_DISGUISE,2|MB_ATT_FORCEBLOCK,2|MB_ATT_DEXTERITY,2|MB_ATT_TRACKING_DART,3|MB_ATT_TRACKING_BEACON|MB_ATT_FLIPKICK,1|MB_ATT_DET_PACK,3|MB_ATT_GUN_DEFENSE,1|MB_ATT_KNOCKDOWN_ROLL|MB_ATT_ENV_PROT,1|MB_ATT_BLAST_ARMOUR,1|MB_ATT_DASH,1
 	
 	forcepowers		FP_SABER_OFFENSE,3
 
@@ -73,7 +73,7 @@ ClassInfo
 	c_att_descs_1	"Causes tracking upon hit"
 
 	c_att_skill_2 MB_ATT_PROJECTILE_RIFLE
-	c_att_names_2	"Kenix Kil's Sniper Rifle"
+	c_att_names_2	"Assassin's Sniper Rifle"
 	c_att_ranks_2	2
 	c_att_descs_2 	"Causes tracking and poison upon hit. 25% less damage"
 
@@ -123,7 +123,7 @@ NewWorldModel "models/weapons2/tusken_rifle_sar/tusken_rifle_w.glm"
 NewViewModel "models/weapons2/tusken_rifle_sar/tusken_rifle.md3"
 NewHandsModel "models/weapons2/tusken_rifle_sar/tusken_rifle_hand.md3"
 Icon	"gfx/hud/w_icon_tuskenrifle"
-WeaponName "Kenix Kil's Sniper Rifle"
+WeaponName "Assassin's Sniper Rifle"
 damageMod .75
 customAmmo 12
 }
