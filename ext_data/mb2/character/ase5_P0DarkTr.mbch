@@ -5,7 +5,7 @@ ClassInfo
 	name 	"ase5_P0DarkTr"
 	weapons 	WP_MELEE|WP_SHOTGUN
 	
-	attributes 	MB_ATT_BLAST_ARMOUR,1|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_FUEL,3|MB_ATT_SHOTGUN,2|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_BESKAR,1|MB_ATT_ANTI_MT,2|MB_ATT_TRACKING_BEACON|MB_ATT_HEALING,3|MB_ATT_ASSEMBLE,3|MB_ATT_FUELREGEN,1|MB_ATT_DEXTERITY,2
+	attributes 	MB_ATT_BLAST_ARMOUR,1|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_FUEL,3|MB_ATT_SHOTGUN,2|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_BESKAR,1|MB_ATT_ANTI_MT,2|MB_ATT_TRACKING_BEACON|MB_ATT_HEALING,3|MB_ATT_ASSEMBLE,3|MB_ATT_FUELREGEN,1|MB_ATT_DEXTERITY,2|MB_ATT_TRACKING_DART,2|MB_ATT_ENV_PROT,1
 	
 	maxhealth 		75
 	maxarmor			100
@@ -29,36 +29,38 @@ ClassInfo
 	forcepool 60
 	forceregen	2.00
 
-	special2 		EAS_MELEE
+	special1		EAS_HI_TRACKER
+	special2 		EAS_NONE
 	special3 		EAS_HI_DEX
 
 	isCustomBuild		1
-	mbPoints			16
+	mbPoints			18
 	
 	c_att_skill_0	MB_ATT_SHOTGUN
 	c_att_names_0	"Heavy ARC Caster"
 	c_att_ranks_0	0,0,6
+	c_att_descs_0	"Electrifies on hit, -75% Reload Speed"
 
 	c_att_skill_1	MB_ATT_PISTOL
 	c_att_names_1	"Commando Pistol"
 	c_att_ranks_1	2,0,4
-	c_att_descs_1	"+15% FP DMG, -25% DMG, +50% Faster Fire Rate, -10% Velocity"
+	c_att_descs_1	"+15% FP Damage, -25% Damage, +50% Fire Rate, -10% Velocity"
 
 	c_att_skill_2	MB_ATT_THERMALS
-	c_att_names_2	"Thermal Detonators"
+	c_att_names_2	"Thermal Detonator"
 	c_att_ranks_2	2
 
 	c_att_skill_3	MB_ATT_RESPAWNS
 	c_att_names_3	"Reinforcement"
-	c_att_ranks_3	2
+	c_att_ranks_3	6
 
 	c_att_skill_4	MB_ATT_HEALTH
 	c_att_names_4	"Health (100/125/150)"
-	c_att_ranks_4	2,2,4
+	c_att_ranks_4	2,2,2
 
 	c_att_skill_5	MB_ATT_ARMOUR
 	c_att_names_5	"Armor (125/150/200)"
-	c_att_ranks_5	2,4,4
+	c_att_ranks_5	2,2,4
 	
 	model 		"darktrooper_p0"
 	skin 		"default"
@@ -113,7 +115,6 @@ WeaponInfo0
 	altFlashSound0 "sound/movers/objects/green_beam_hit.mp3"
 	selectSound "sound/weapons/phase2_arc/ready.wav"
 	altfireenabled		0
-	damageMod 0.85
 	clipsize   12
 	customammo 480
 	ReloadTimeModifier 		1.75
@@ -142,7 +143,7 @@ WeaponInfo1
 }
 
 
-description	"Dark Trooper Phase 0 [Clone Trooper] -Kalkite
+description	"Dark Trooper Phase 0 [Clone Trooper]
  
 To return aged veterans of the Clone Wars to peak condition, their limbs and organs were removed and replaced with cybernetics. Jetpack Trooper that has access to a Heavy Arc Caster, unique Commando Pistol, and thermal detonators.
 
@@ -161,7 +162,9 @@ To return aged veterans of the Clone Wars to peak condition, their limbs and org
 - Healing (3)
 - Assemble (3)
 - Dexterity (2)
+- Environmental Protection (1)
 
 ^3Abilities:
 - Jetpack
+- Tracking Darts (4) ^3[CS1 Melee]
 - Dexterity Roll ^3[CS3]"

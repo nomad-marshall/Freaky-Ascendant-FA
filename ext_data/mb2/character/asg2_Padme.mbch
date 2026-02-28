@@ -6,7 +6,7 @@ ClassInfo
 	name					"asg2_Padme"
 	weapons					WP_A280|WP_MELEE|WP_PULSE_NADE|WP_SONIC_NADE|WP_BLASTER_PISTOL
 	attributes				MB_ATT_HEALING,3|MB_ATT_DASH,2|MB_ATT_A280,1|MB_ATT_AMMO,3|MB_ATT_RALLY,1|MB_ATT_PULSE_GRENADES,4|MB_ATT_DODGE,3|MB_ATT_PISTOL,3|MB_ATT_DEXTERITY,2|MB_ATT_KNOCKDOWN_ROLL|MB_ATT_FLIPKICK,1|MB_ATT_ANTI_MT,2|MB_ATT_USE_DISTANCE,10|MB_ATT_DISP_BLOCK,3|MB_ATT_GRAPPLE_HOOK,2|MB_ATT_QUICKTHROW,1|MB_ATT_DISP_FORCE,2|MB_ATT_STAMINA,3
-	maxhealth				150
+	maxhealth				165
 	maxarmor				50
 
 	forcepowers 			FP_TEAM_FORCE,2
@@ -116,11 +116,11 @@ A quick in-and-out gunner with powerful rapid fire blasters and self-healing ite
 
 ^2Weaponry:
 - Melee
--- 30% faster RoF
+-- +30% Rate of Fire
 - ELG-3A Diplomat's Pistol (3)
--- 10% more DMG/FP DMG
+-- +10% more Damage/FP Damage
 - Looted E-5 Blaster Rifle (A280 1)
--- 10% more DMG
+-- +10% Damage
 - Pulse Grenades (4)
 
 ^5Powers:
@@ -131,8 +131,8 @@ A quick in-and-out gunner with powerful rapid fire blasters and self-healing ite
 - Advanced Medpac
 
 ^8Attributes:
-- 5% more KB given
-- 15% faster skill CD
+- +5% Knockback Given
+- +15% Cooldown Reduction
 - Dexterity (2)
 - Healing (3)
 - Anti-Mind Trick (2)

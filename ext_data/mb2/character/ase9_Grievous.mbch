@@ -8,7 +8,7 @@ Classinfo
 	
 	weapons		WP_MELEE|WP_SABER|WP_BLASTER_PISTOL
 
-	attributes	MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_PISTOL,2|MB_ATT_FORCEBLOCK,2|MB_ATT_CORTOSIS,1|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_GRAPPLE_HOOK,1|MB_ATT_BLAST_ARMOUR|MB_ATT_STAMINA,3|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_GUN_DEFENSE,1|MB_ATT_DEFLECT,0|MB_ATT_DEXTERITY,3|MB_ATT_SABER_COMBO,2
+	attributes	MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_PISTOL,2|MB_ATT_FORCEBLOCK,1|MB_ATT_CORTOSIS,1|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_GRAPPLE_HOOK,1|MB_ATT_BLAST_ARMOUR|MB_ATT_STAMINA,3|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_GUN_DEFENSE,1|MB_ATT_DEFLECT,0|MB_ATT_DEXTERITY,3|MB_ATT_SABER_COMBO,2
 	
 	forcepowers	FP_SABER_OFFENSE,2|FP_LEVITATION,1
 	
@@ -42,9 +42,9 @@ Classinfo
 	maxhealth	80
 	maxarmor     80
 
-	basespeed	255
+	basespeed	193
 	resource	    RESOURCE_STAMINA
-	forcepool	120
+	forcepool	140
 	forceregen	1.15
 	runForward BOTH_WOOKIEE_RAGE_RUN
 	bowAnim  BOTH_REACHFORSABER1
@@ -54,7 +54,7 @@ Classinfo
 
 	//respawncustomtime 50000
 	
-	special1	EAS_NONE
+	special1	EAS_SPRINT
 	special2 EAS_MELEE
 	special3 EAS_HI_DEX
 	special4	EAS_HI_GRAPPLEHOOK
@@ -144,5 +144,6 @@ A speedy, resilient commander with 4 Lightsabers. Excels at close-range encounte
 - Force Block (2)
 
 ^3Abilities:
+- Sprint ^3[CS1]
 - Dex Roll ^3[CS3]
 - Grappling Hook (1) ^3[CS4 Melee]"

@@ -1,0 +1,130 @@
+
+ClassInfo
+{
+	name	"asg3_AlphaArc"
+	MBClass	MB_CLASS_ARCTROOPER
+	classNumberLimit	2
+	weapons	WP_MELEE|WP_CLONE_PISTOL|WP_CLONE_RIFLE|WP_PULSE_NADE|WP_CONC_NADE|WP_UGL
+	attributes		MB_ATT_AMMO,3|MB_ATT_CLONE_PISTOL,3|MB_ATT_CLONERIFLE,2|MB_ATT_UGL_IMPACT,1|MB_ATT_GRAPPLE_HOOK,3|MB_ATT_TRACKING_DART,3|MB_ATT_TRACKING_BEACON|MB_ATT_PULSE_GRENADES,3|MB_ATT_MICRO_GRENADES,3|MB_ATT_DEXTERITY,3|MB_ATT_STAMINA,3|MB_ATT_FLOAT_HOP
+	
+	resource RESOURCE_STAMINA
+	forcepool 150
+	forceregen 1.15
+	
+	maxhealth		125
+	
+	MaxArmor		125
+
+	knockbackTaken 0.88
+
+	skilltimerMod 0.75
+
+	basespeed 235
+	
+	holdables HI_MEDPAC_BIG
+	special1    EAS_HI_TRACKER
+	special2	EAS_HI_DEX
+	special3	EAS_HI_KICK
+	special4	EAS_HI_GRAPPLEHOOK
+	
+	saberStanceAnim	BOTH_STAND9
+	tauntAnim		BOTH_ENGAGETAUNT
+	gloatAnim		BOTH_TALKCOMM1START
+	flourishAnim		BOTH_VICTORY_FAST
+	meditateAnim 	BOTH_KNOCKDOWN4
+	
+	uioverlay_l "gfx/icons/heavy"
+	uioverlay_r "gfx/icons/infantry"
+	modelscale  1.02
+	model "clonetrooper_p1"
+	skin  "arc"
+	uishader "models/players/clonetrooper_p1/mb2_icon_arc"
+	userRGB 		1
+	customred	0.709
+	customgreen	0.12
+	customblue 	0.12 //def r
+}
+	
+
+WeaponInfo0
+{
+	WeaponToReplace	WP_CLONE_PISTOL
+	WeaponBasedOff	WP_CLONE_PISTOL
+	NewWorldModel		"models/weapons2/dc-17_cw/dc-17_w.glm"  	 
+	NewViewModel		"models/weapons2/dc-17_cw/dc-17_cw.md3" 
+	NewHandsModel		"models/weapons2/dc-17_cw/dc-17_cw_hand.md3" 
+	Icon				"gfx/hud/w_icon_dc-17_cw_dual"
+	WeaponName		"DC-15s Blaster Carbines"
+	FlashSound0		"sound/weapons/se-44c/fire.wav"
+	altFlashSound0	"sound/weapons/se-44c/alt_fire.wav"
+	ChargeSound "sound/weapons/leia_pistol/altcharge.mp3"
+	rateMod .9
+	
+}
+
+WeaponInfo1
+{
+	WeaponToReplace WP_CLONE_RIFLE
+	WeaponBasedOff	WP_CLONE_RIFLE
+	NewWorldModel		"models/weapons2/dc-15_ext/dc-15_ext_w.glm"
+	NewViewModel		"models/weapons2/dc-15_ext/dc-15_ext.md3"
+	Icon				"gfx/hud/w_icon_clonerifle_blobs"
+	WeaponName		"DC-15a Clone Rifle"
+	damageMod 1.25
+	rateMod .75
+}
+
+WeaponInfo2
+{
+	WeaponToReplace WP_CONC_NADE
+	WeaponBasedOff	WP_M5
+	NewWorldModel "models/weapons2/dummyblaster/model.glm"
+	NewViewModel "models/weapons2/dummy/dummy.md3"
+	Icon	"gfx/hud/mgs/weapon_melee"
+	primfireenabled 0
+	altFireEnabled 0
+	customAmmo 3
+}
+
+WeaponInfo3
+{
+	WeaponToReplace WP_UGL
+	WeaponBasedOff	WP_UGL
+	NewWorldModel		"models/weapons2/dc-15_ext/dc-15_ext_w.glm"
+	NewViewModel		"models/weapons2/dc-15_ext/dc-15_ext.md3"
+	Icon				"gfx/hud/w_icon_clonerifle"
+	WeaponName		"DC-15a UGL"
+}
+description	"Alpha-Class ARC Trooper
+
+A highly mobile elite trooper. Best of the best.
+
+^2Weaponry:
+- Melee
+- DC-15s Blaster Carbines (3)
+--10% Faster RoF
+-- Magazine Reload
+- DC-15a Clone Rifle (2)
+--25% Faster RoF
+--25% More Damage
+- DC-15a UGL
+-- Pulse Nades (3)
+-- UGL Micro Grenades (3)
+
+
+^6Inventory:
+- Advanced Medpac
+
+^8Attributes:
+- 25% faster Skill Cd
+- 12% less Kb Taken
+- Stamina (3)
+- Dexterity (3)
+- Tracking Beacon
+- Slowfall
+
+^3Abilities:
+- Tracking Darts ^3[CS1]
+- Dexterity Roll ^3[CS2]
+- Gunkick ^3[CS3]
+- Grappling Hook (3) ^3[CS4 Melee]"
