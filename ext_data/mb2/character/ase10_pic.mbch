@@ -27,9 +27,7 @@ ClassInfo
 	ASmultiplier 		0.95
 	forceregen			1.22
 	classflags		CFL_BPFREEJUMPS|CFL_STRONGAGAINSTPHYSICAL
-	WP_Meleeflags	HELD_SLOW
 	rateoffire_melee	0.6
-	saberdamage			66
 }
 
 WeaponInfo0
@@ -49,7 +47,6 @@ description	"Picaroon C. Boodle - The Mutant Monkey Lizard [Jedi]
 
 ^7Weaponry:
 - Melee
--- Slow Movement
 -- 40% Increased ROF
 -- 44% Less Damage
 - Pic's Lightsaber Shoto
@@ -58,8 +55,6 @@ description	"Picaroon C. Boodle - The Mutant Monkey Lizard [Jedi]
 -- Blaster Defense (1)
 -- 30% less reach
 -- 26% less radius
--- Slap ^3[CS2]
--- 66 Saber Damage
 
 ^5Force Powers:
 - Force Jump (3)
@@ -69,14 +64,12 @@ description	"Picaroon C. Boodle - The Mutant Monkey Lizard [Jedi]
 - Team Force (1) ^3[CS3]
 - Mind Trick (1) ^3[CS4]
 - Force Sense (2)
-- Force Block	(2)
-- Force Focus	(1)
+- Force Block (2)
+- Force Focus (1)
 
 ^8Attributes:
 - Flipkick (1) ^3[Contact Jump]
 - Heal (2)
 - Bunny Hop
 - Resistant to Melee
-- In Air Force Regen
-
-It is a mystery why one would call Gorc and Pic twins. Even though one is a miniature version of the other, they look nothing alike. They also don't battle alike. Pic is the energy and Gorc, the counter. They are the clashing balance of opposites: one, the voice; the other, the body. This combination is deadly."
+- In Air Force Regen"

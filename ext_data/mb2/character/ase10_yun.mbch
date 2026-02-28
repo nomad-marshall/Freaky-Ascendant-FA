@@ -6,8 +6,9 @@ ClassInfo
 	weapons			WP_MELEE|WP_SABER
 	forcepowers		FP_LEVITATION,2|FP_PUSH,1|FP_PULL,2|FP_SEE,2|FP_BLIND,2|FP_TELEPATHY,2|FP_SABER_OFFENSE,2|FP_SPEED,1
 	attributes		MB_ATT_FORCEFOCUS,1|MB_ATT_FORCEBLOCK,3|MB_ATT_FP_SABER_DEFENSE,2|MB_ATT_GUN_DEFENSE,1|MB_ATT_DEFLECT,1
-	maxhealth		90
+	maxhealth		100
 	maxarmor		0
+	forcepool		115
 	saber1			saber_yun
 	sabercolor		2
 	saberstyle		SS_FAST|SS_TAVION
@@ -36,6 +37,4 @@ description	"Yun [Jedi]
 - Mind Trick (2)
 - Force Sense (2)
 - Force Focus (1)
-- Force Block (3)
-
-Qu Rahn - Yun: a young and willing Dark Jedi, the newest addition to the cause. Brash and eager, he is ready to prove himself to his master at any cost. These elements make him a dangerous and unpredictable foe."
+- Force Block (3)"

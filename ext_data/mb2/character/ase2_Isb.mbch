@@ -31,6 +31,9 @@ ClassInfo
 	model_1 		"isb_agont"
 	skin_1 		"default"
 	uishader_1  	"models/players/isb_agont/icon_default"
+	model_2 		"imperial_fml"
+	skin_2 		"isb"
+	uishader_2  	"models/players/imperial_fml/mb2_icon_isb"
 	
 	forcepool 	125
 	forceregen	1.8

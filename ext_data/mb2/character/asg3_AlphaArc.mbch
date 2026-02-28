@@ -5,7 +5,7 @@ ClassInfo
 	MBClass	MB_CLASS_ARCTROOPER
 	classNumberLimit	2
 	weapons	WP_MELEE|WP_CLONE_PISTOL|WP_CLONE_RIFLE|WP_PULSE_NADE|WP_CONC_NADE|WP_UGL
-	attributes		MB_ATT_AMMO,3|MB_ATT_CLONE_PISTOL,3|MB_ATT_CLONERIFLE,2|MB_ATT_UGL_IMPACT,1|MB_ATT_GRAPPLE_HOOK,3|MB_ATT_TRACKING_DART,3|MB_ATT_TRACKING_BEACON|MB_ATT_PULSE_GRENADES,3|MB_ATT_MICRO_GRENADES,3|MB_ATT_DEXTERITY,3|MB_ATT_STAMINA,3|MB_ATT_FLOAT_HOP
+	attributes		MB_ATT_AMMO,3|MB_ATT_CLONE_PISTOL,3|MB_ATT_CLONERIFLE,1|MB_ATT_UGL_IMPACT,1|MB_ATT_GRAPPLE_HOOK,3|MB_ATT_TRACKING_DART,3|MB_ATT_TRACKING_BEACON|MB_ATT_PULSE_GRENADES,3|MB_ATT_MICRO_GRENADES,3|MB_ATT_DEXTERITY,3|MB_ATT_STAMINA,3|MB_ATT_FLOAT_HOP
 	
 	resource RESOURCE_STAMINA
 	forcepool 150
@@ -20,6 +20,8 @@ ClassInfo
 	skilltimerMod 0.75
 
 	basespeed 235
+	
+	WP_ClonePistolFlags HELD_ALTRELOAD
 	
 	holdables HI_MEDPAC_BIG
 	special1    EAS_HI_TRACKER
@@ -76,14 +78,22 @@ WeaponInfo1
 
 WeaponInfo2
 {
-	WeaponToReplace WP_CONC_NADE
-	WeaponBasedOff	WP_M5
-	NewWorldModel "models/weapons2/dummyblaster/model.glm"
-	NewViewModel "models/weapons2/dummy/dummy.md3"
-	Icon	"gfx/hud/mgs/weapon_melee"
+	WeaponToReplace	WP_CONC_NADE
+	WeaponBasedOff	WP_CONC_NADE
+	NewWorldModel	"models/weapons/Grenade_Concussion/model.glm"
+	NewViewModel	"models/weapons/Grenade_Concussion/viewmodel.md3"
+	MissileModel 	"models/weapons/Grenade_Concussion/proj.md3"
+	altMissileMissEffect		"Grenades/EXP_Flash"
+	MissileMissEffect		"Grenades/EXP_Flash"
+	altMissileHitHumanEffect	"Grenades/EXP_Flash"
+	missileHitHumanEffect		"Grenades/EXP_Flash"
+	altMissileHitDroidEffect	"Grenades/EXP_Flash"
+	missileHitDroidEffect		"Grenades/EXP_Flash"
+	Icon		"gfx/hud/w_icon_stungrenade"
+	WeaponName	"UGL Flashbang Rounds"
 	primfireenabled 0
 	altFireEnabled 0
-	customAmmo 3
+	customAmmo 6
 }
 
 WeaponInfo3
@@ -94,6 +104,7 @@ WeaponInfo3
 	NewViewModel		"models/weapons2/dc-15_ext/dc-15_ext.md3"
 	Icon				"gfx/hud/w_icon_clonerifle"
 	WeaponName		"DC-15a UGL"
+	damageMod 0.25
 }
 description	"Alpha-Class ARC Trooper
 
@@ -104,12 +115,12 @@ A highly mobile elite trooper. Best of the best.
 - DC-15s Blaster Carbines (3)
 --10% Faster RoF
 -- Magazine Reload
-- DC-15a Clone Rifle (2)
+- DC-15a Clone Rifle (1)
 --25% Faster RoF
 --25% More Damage
 - DC-15a UGL
 -- Pulse Nades (3)
--- UGL Micro Grenades (3)
+-- UGL Flashbang Rounds (6)
 
 
 ^6Inventory:
@@ -124,7 +135,7 @@ A highly mobile elite trooper. Best of the best.
 - Slowfall
 
 ^3Abilities:
-- Tracking Darts ^3[CS1]
+- Tracking Darts (6) ^3[CS1]
 - Dexterity Roll ^3[CS2]
 - Gunkick ^3[CS3]
 - Grappling Hook (3) ^3[CS4 Melee]"
