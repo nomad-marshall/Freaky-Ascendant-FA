@@ -64,20 +64,28 @@ ClassInfo
 	skin_1		 "default"
 	uishader_1 	"models/players/asajj_cw/mb2_icon_default"
 	
-	model_2		"asajj_bh"
+	model_2		"ventress"
 	skin_2		"default"
-	uishader_2	"models/players/asajj_bh/ven4_icon"
+	uishader_2	"models/players/ventress/icon_default"
 	
-	model_3		"asajj_bh"
-	skin_3		"helmet"
-	uishader_3	"models/players/asajj_bh/ven5_icon"
+	model_3		"ventress"
+	skin_3		"disguise"
+	uishader_3	"models/players/ventress/icon_disguise"
 	
-	model_4		"asajj"
-	skin_4		"ns"
-	uishader_4	"models/players/asajj/ven3_icon"
+	model_4		"ventress"
+	skin_4		"helmet"
+	uishader_4	"models/players/ventress/icon_helmet"
+	
+	model_5		"ventress"
+	skin_5		"helmetup"
+	uishader_5	"models/players/ventress/icon_helmetup"
+	
+	model_6		"Asajj_NS"
+	skin_6		"default"
+	uishader_6	"models/players/Asajj_NS/icon_default"
 }
 
-description "Asajj Ventress [Sith]
+description "Asajj Ventress
 
 A fast Sith who can wield unique Starblades designed for massive throw damage, as well as Dual or Staff sabers.
 
