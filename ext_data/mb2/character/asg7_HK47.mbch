@@ -12,7 +12,7 @@ ClassInfo
 
 	knockbacktaken .85
 
- holdables HI_SENTRY_GUN //BASE?
+ //holdables HI_SENTRY_GUN //BASE?
  maxhealth   80
  maxarmor  115
 
@@ -30,7 +30,7 @@ ClassInfo
 	special1			EAS_HI_POISON
 	special2			EAS_HI_FLAME
 	special3 			EAS_HI_POISONTHROWER
-	special4			EAS_HI_SENTRY_GUN
+	//special4			EAS_HI_SENTRY_GUN
 
 	
 	flourishAnim BOTH_STAND5TOAIM
@@ -153,9 +153,6 @@ A heavily armored long-range assassin, capable of sustained Wrist Flamethrower u
 
 ^5Powers:
 - Radar Scanner (Sense 1)
-
-^6Inventory:
-- Assault Sentry ^3[CS4]
 
 ^8Attributes:
 - 15% faster Hacking
