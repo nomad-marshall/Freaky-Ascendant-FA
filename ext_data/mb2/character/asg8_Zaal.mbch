@@ -27,8 +27,8 @@ ClassInfo
 	saber1_1			vibrosword_zaalbar_legends
 	saber2_1			vibrosword_zaalbar_legends
 	saberstyle_1 		SS_DUAL
-	
-	saber1_2			vibrodoubleblade_zaalbar_legends
+
+	saber1_2			vibrodoubleblade_legends
 	saberstyle_2		SS_STAFF
 
 saberDamageStyle SS_MEDIUM,240|SS_DUAL,260

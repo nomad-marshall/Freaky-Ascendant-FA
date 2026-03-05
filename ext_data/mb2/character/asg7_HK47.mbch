@@ -4,15 +4,15 @@ ClassInfo
  classNumberLimit   	1
 	MBClass   MB_CLASS_WOOKIE
 
- weapons    WP_SONIC_NADE|WP_FRAG_NADE|WP_MELEE|WP_T21|WP_EE4
+ weapons    WP_SONIC_NADE|WP_FRAG_NADE|WP_MELEE|WP_T21|WP_EE4|WP_TRIP_MINE
 
- attributes    MB_ATT_T21,3|MB_ATT_RECHARGE,3|MB_ATT_AMMO,3|MB_ATT_EE4,3|MB_ATT_FRAGS,2|MB_ATT_SONIC_DETONATOR,2|MB_ATT_POISON_DART,2|MB_ATT_FLAMETHROWER,1|MB_ATT_BESKAR,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_ANTI_MT,2|MB_ATT_TRACKING_BEACON
+ attributes    MB_ATT_T21,3|MB_ATT_RECHARGE,3|MB_ATT_AMMO,3|MB_ATT_EE4,3|MB_ATT_FRAGS,2|MB_ATT_SONIC_DETONATOR,2|MB_ATT_POISON_DART,2|MB_ATT_FLAMETHROWER,1|MB_ATT_BESKAR,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_ANTI_MT,2|MB_ATT_TRACKING_BEACON|MB_ATT_THROWER_POISON|MB_ATT_TRIP_MINES,3|MB_ATT_SHIELD_RECHARGE,1
 	
  classflags      	CFL_SEEING_STEALTH
 
 	knockbacktaken .85
 
- holdables HI_SENTRY_GUN //BASE?
+ //holdables HI_SENTRY_GUN //BASE?
  maxhealth   80
  maxarmor  115
 
@@ -29,8 +29,8 @@ ClassInfo
 	
 	special1			EAS_HI_POISON
 	special2			EAS_HI_FLAME
-	special3 		EAS_FP_SEE	
-	special4			EAS_HI_SENTRY_GUN
+	special3 			EAS_HI_POISONTHROWER
+	//special4			EAS_HI_SENTRY_GUN
 
 	
 	flourishAnim BOTH_STAND5TOAIM
@@ -111,6 +111,18 @@ WeaponInfo1
  FlashSound0		"sound/weapons/kotor/fire_hvy.wav"
 }
 
+WeaponInfo2
+{
+	WeaponToReplace		WP_TRIP_MINE
+	WeaponBasedOff	WP_TRIP_MINE
+	NewWorldModel		"models/weapons2/laser_trap/laser_trap_w.glm"
+	NewViewModel		"models/weapons2/laser_trap/laser_trap.md3"
+ NewHandsModel "models/weapons2/laser_trap/laser_trap_hand.md3"
+	Icon			"gfx/hud/w_icon_tripmine"
+	WeaponName		"Dioxis Trip Mines"
+	customammo 3
+ rateMod 0.9
+}
 ForceInfo0
 {
 	ForceToReplace FP_SEE
@@ -120,17 +132,17 @@ ForceInfo0
 	LoopSound "sound/ambience/cp_02_lp.wav"
 }
 
-description "HK-series Assassin Droid [Wookiee]
+description "HK-series Assassin Droid
 
 A heavily armored long-range assassin, capable of sustained Wrist Flamethrower usage and equipped to terminate Force users. 
 
 ^2Weaponry:
 - Melee
-- Droid Assassin's Rifle (EE-4 3)
+> Droid Assassin's Rifle (EE-4 3)
 -- 5% faster RoF
 -- 15% more FP DMG
 -- Mag reload
-- Repeating Blaster Rifle (T-21 3)
+> Repeating Blaster Rifle (T-21 3)
 -- 15% more DMG
 -- 30% more FP DMG
 -- 25% more velocity
@@ -138,12 +150,12 @@ A heavily armored long-range assassin, capable of sustained Wrist Flamethrower u
 -- 25% slower mag reload
 - Frag Grenades (2)
 - Sonic Detonators (2)
+> Dioxis Trip Mines (3)
+-- Poisons/staggers on det
+-- 10% faster RoF
 
 ^5Powers:
-- Radar Scanner (Sense 1) ^3[CS3]
-
-^6Inventory:
-- Assault Sentry ^3[CS4]
+- Radar Scanner (Sense 1)
 
 ^8Attributes:
 - 15% faster Hacking
@@ -152,10 +164,12 @@ A heavily armored long-range assassin, capable of sustained Wrist Flamethrower u
 - Battery Recharge (3)
 - Beskar (3)
 - Blast Armor
+- Armor Regen (1)
 - Anti-Mind Trick (2)
 - Sense Immunity
 - Tracking Beacon
 
 ^3Abilities:
 - Poison Darts (2) ^3[CS1 Melee]
-- Wrist Flamethrower ^3[CS2]"
+- Wrist Flamethrower ^3[CS2]
+- Poison Wristthrower ^3[CS3]"
