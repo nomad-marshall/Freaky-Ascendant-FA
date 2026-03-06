@@ -39,7 +39,7 @@ classinfo
 	
 	special1	EAS_FP_REPULSE
 	special2	EAS_MELEE
-	special3	EAS_HI_POISON
+	special3	EAS_HI_POISONTHROWER
 	
 	iscustombuild	1
 	mbpoints		45
@@ -58,10 +58,10 @@ classinfo
 	c_att_skill_0	MB_ATT_FP_LIGHTNING
 	c_att_ranks_0	0,2,5
 	c_att_names_0	"Force Lightning"
-	c_att_skill_1	MB_ATT_POISON_DART
-	c_att_ranks_1	1,3,5
+	c_att_skill_1	MB_ATT_THROWER_POISON
+	c_att_ranks_1	5
 	c_att_names_1	"Afflicition ^3[CS3]"
-	c_att_descs_1	"Poison Darts"
+	c_att_descs_1	"Poison Wrist Thrower"
 	c_att_skill_2	MB_ATT_FP_PUSH
 	c_att_ranks_2	0,1,5
 	c_att_names_2	"Force Push"
