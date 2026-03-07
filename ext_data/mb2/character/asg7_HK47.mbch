@@ -54,10 +54,6 @@ ClassInfo
 	model_3		"hk47"
 	skin_3			"hk51"
 	uishader_3		"models/players/hk47/mb2_icon_hk51"
-	
-	model_4		"HK55"
-	skin_4		"default"
-	uishader_4		"models/players/HK55/mb2_icon_default"
 }
 
 WeaponInfo0
