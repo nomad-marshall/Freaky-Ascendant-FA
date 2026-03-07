@@ -5,7 +5,7 @@ electrostaff_magnaguard
 	saberModel	"models/weapons2/electrostaff/electrostaff_purp.glm"
 	//customSkin 	"models/weapons2/electrostaff/electrostaff.skin"
 	saberColor		purple
-	saberLength	    14
+	saberLength	    30
 	twohanded		1
 	throwable		0
 //	saberStyle		staff
@@ -53,4 +53,5 @@ electrostaff_magnaguard
 	idleInBack	1
 	drawAnim BOTH_SPINATTACK7
 	LungeAtkMove LS_A3_SPECIAL
+
 }
