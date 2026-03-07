@@ -28,7 +28,7 @@ ClassInfo
 	forcepool	80
  knockbackTaken 0.85
  saberDamage 80
-	saber1		electrostaff_legends
+	saber1		electrostaff_magnaguard
 	sabercolor	5
 	saberstyle	SS_STAFF
 
@@ -194,6 +194,7 @@ Mobile hybrids with high dueling stats and Armor Regen.
 - Dash (1) ^3[CS2]
 - Gunkick ^3[CS3]
 - Grappling Hook (1) ^3[CS4 Melee]"
+
 
 
 
