@@ -24,7 +24,7 @@ ClassInfo
 	armourRegenCap 20
 
  basespeed 	236
-	skilltimermod 		1
+	skilltimermod 		1.5
 	forcepool	80
  knockbackTaken 0.85
  saberDamage 80
@@ -195,4 +195,5 @@ Mobile hybrids with high dueling stats and Armor Regen.
 - Dash (1) ^3[CS2]
 - Gunkick ^3[CS3]
 - Grappling Hook (1) ^3[CS4 Melee]"
+
 
