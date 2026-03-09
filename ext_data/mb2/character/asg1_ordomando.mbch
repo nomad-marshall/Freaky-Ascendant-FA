@@ -2,7 +2,7 @@ ClassInfo
 {
 	name			"asg1_Ordomando"
 	MBClass			MB_CLASS_MANDALORIAN
-	weapons			WP_MELEE|WP_EE4|WP_FRAG_NADE|WP_SABER
+	weapons			WP_MELEE|WP_EE4|WP_SABER
 
 	maxhealth		60
 	maxarmor        20	
