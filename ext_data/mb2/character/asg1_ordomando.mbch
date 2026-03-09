@@ -34,6 +34,10 @@ ClassInfo
 	skilltimermod 1.25
 	rankSTM   1,0.9,0.8
 	rankROF 	0.9,0.8,0.7
+	basespeed	195
+	rankbasespeed	214,235,258
+	
+	special1HUD HUD_FRAGNADE
 	
   	uioverlay_r "gfx/icons/infantry"
 	uioverlay_l "gfx/icons/spec_infantry"
