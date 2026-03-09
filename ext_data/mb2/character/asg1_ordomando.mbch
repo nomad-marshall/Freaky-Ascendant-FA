@@ -209,7 +209,7 @@ c_att_ranks_31	3,3
 c_att_skill_32	MB_ATT_ROF_MULTIPLIER
 c_att_names_32	"Rate of Fire Increase"
 c_att_ranks_32	3,3,5
-c_att_descs_32	"10% / 20% / 30%"
+c_att_descs_32	"10/20/30%"
 
 c_att_skill_33	MB_ATT_EE4
 c_att_names_33	"Mandalorian Assault Rifle (EE-4)"
