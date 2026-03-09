@@ -1,6 +1,6 @@
 ClassInfo
 {
-	name			"asg1_Ordomando"
+	name			"asg1_ClanOrdo"
 	MBClass			MB_CLASS_MANDALORIAN
 	weapons			WP_MELEE|WP_EE4|WP_SABER
 
