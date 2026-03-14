@@ -32,7 +32,7 @@ SubclassesForClass1
 	Subclass14	"asg2_Panaka"
 	Subclass15	"h2_JynE"
 	Subclass16	"h2_Han"
-	Subclass17	"h2_Lando"
+	Subclass17	"asg2_Lando"
 	Subclass18	"h2_JanO"
 	Subclass19	"asg2_Carth"
 	Subclass20	"asg2_Engineer"
@@ -79,12 +79,11 @@ SubclassesForClass3
 	Subclass6 	"asg5_Armorer"
 	Subclass7	"asg5_Paz"
 	Subclass8	"h5_Dash"
-	Subclass9	"asg5_GadgetMando"
-	Subclass10	"h6_Cross"
-	Subclass11	"h6_Andor"
-	Subclass12	"h6_Nien"
-	Subclass13 	"h6_Mission"
-	Subclass14	"asg6_RiannaS"
+	Subclass9	"h6_Cross"
+	Subclass10	"h6_Andor"
+	Subclass11	"h6_Nien"
+	Subclass12 	"h6_Mission"
+	Subclass13	"asg6_RiannaS"
 }
 
 SubclassesForClass4
