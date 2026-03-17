@@ -38,6 +38,7 @@ SubclassesForClass1
 	Subclass20	"asg2_Engineer"
 	Subclass21	"asg2_Senator"
 	Subclass22	"asg2_NicoOkarr"
+	Subclass23	"asg2_RebelSabo"
 }
 
 SubclassesForClass2
@@ -88,7 +89,7 @@ SubclassesForClass3
 
 SubclassesForClass4
 {
-	Subclass1	"h7_Spy"
+	Subclass1	"asg7_Spy"
 	Subclass2 	"asg7_RebSapper"
 	Subclass3	"asg7_RebSpecOps"
 	Subclass4	"h7_CloneAss"
