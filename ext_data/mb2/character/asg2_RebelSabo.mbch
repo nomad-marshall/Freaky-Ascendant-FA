@@ -10,6 +10,7 @@ MaxArmor 20
 rankArmor 30,60,80
 resource resource_stamina
 forcepool 80
+rankForcePool 100,120
 MBClass MB_CLASS_HERO
 classNumberLimit 3
 holdables HI_SEEKER
