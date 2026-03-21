@@ -80,10 +80,6 @@ NewViewModel	"models/weapons/Grenade_Concussion/viewmodel.md3"
 Icon	"gfx/hud/w_icon_stungrenade"
 WeaponName	"Corrosive Frag Grenade"
 MissileModel	"models/weapons/Grenade_Concussion/proj.md3"
-MissileEffect	"effects/Grenades/GlowGasB"
-AltMissileEffect	"effects/Grenades/GlowGasB"
-MissileMissEffect	"effects/Grenades/EXP_Gas"
-altMissileMissEffect	"effects/Grenades/EXP_Gas"
 ratemod	1.5
 }
 WeaponInfo2

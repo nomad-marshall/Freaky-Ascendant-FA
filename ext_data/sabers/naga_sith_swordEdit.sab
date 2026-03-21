@@ -33,7 +33,7 @@ naga_sadow_sword_v2
 	bounceOnWalls	1
 	noWallMarks	1
 	readyAnim BOTH_TRIPLE3_STAFFSTANCE
-	bladeEffect	efx/effects/sith_sword_lightning.efx
+	//bladeEffect	efx/effects/sith_sword_lightning.efx
 	blockEffect	effects/force/lightning.efx
 	hitPersonEffect	effects/force/lightning.efx
 	hitOtherEffect	effects/demp2/wall_impact.efx
@@ -75,7 +75,7 @@ naga_sadow_sword_v2_duals
 	bounceOnWalls	1
 	noWallMarks	1
 	readyAnim BOTH_DOOKU_STANCE
-	bladeEffect	efx/effects/sith_sword_lightning.efx
+	//bladeEffect	efx/effects/sith_sword_lightning.efx
 	blockEffect	effects/force/lightning.efx
 	hitPersonEffect	effects/force/lightning.efx
 	hitOtherEffect	effects/demp2/wall_impact.efx

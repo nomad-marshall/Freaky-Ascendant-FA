@@ -103,10 +103,6 @@ WeaponInfo2
 	Icon	"gfx/hud/w_icon_stungrenade"
 	WeaponName	"Rhydonium Grenade"
 	MissileModel	"models/weapons/Grenade_Concussion/proj.md3"
-	MissileEffect	"effects/Grenades/GlowGasB"
-	AltMissileEffect	"effects/Grenades/GlowGasB"
-	MissileMissEffect	"effects/Grenades/EXP_Gas"
-	altMissileMissEffect	"effects/Grenades/EXP_Gas"
 	damageMod 0.70
 	ratemod	1.5
 }
