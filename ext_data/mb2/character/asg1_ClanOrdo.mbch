@@ -111,6 +111,7 @@ c_att_ranks_5	3,3,3
 c_att_skill_6	MB_ATT_EE4
 c_att_names_6	"Mando Assault Rifle"
 c_att_ranks_6	0,5,8
+c_att_descs_6	"EE-4 Rifle"
 
 c_att_skill_7	MB_ATT_HEALTH
 c_att_names_7	"HP (75/100/110)"
@@ -175,6 +176,7 @@ c_att_ranks_21	3
 c_att_skill_22	MB_ATT_EE4
 c_att_names_22	"Mando Assault Rifle"
 c_att_ranks_22	0
+c_att_descs_22  "EE-4 Rifle"
 
 c_att_skill_23	MB_ATT_RESPAWNS
 c_att_names_23	"Reinforcement"
@@ -221,6 +223,7 @@ c_att_descs_32	"10/20/30%"
 c_att_skill_33	MB_ATT_EE4
 c_att_names_33	"Mando Assault Rifle"
 c_att_ranks_33	0,2,5
+c_att_descs_33  "EE-4 Rifle"
 
 c_att_skill_34	MB_ATT_RESPAWNS
 c_att_names_34	"Reinforcement"
