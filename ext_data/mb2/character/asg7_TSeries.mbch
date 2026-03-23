@@ -35,10 +35,6 @@ ClassInfo
 	model				"t3m4" 
 	skin					"default"
 	uishader			"gfx/hud/fa_icons/mb2_icon_t3m4"	
-	model_1			"t7-o1"
-	skin_1			"default"
-	uishader_1		"models/players/t7-01/icon_default"
-	uioverlay "gfx/icons/tactician"
 
 	isCustomBuild	1
 	mbPoints		1

@@ -60,7 +60,7 @@ classinfo
 	c_att_names_0	"Force Lightning"
 	c_att_skill_1	MB_ATT_THROWER_POISON
 	c_att_ranks_1	5
-	c_att_names_1	"Afflicition ^3[CS3]"
+	c_att_names_1	"Affliction ^3[CS3]"
 	c_att_descs_1	"Poison Wrist Thrower"
 	c_att_skill_2	MB_ATT_FP_PUSH
 	c_att_ranks_2	0,1,5
