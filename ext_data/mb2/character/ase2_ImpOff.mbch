@@ -1,0 +1,292 @@
+//Legends Mode character file - Created by Frenzy & Leos
+
+ClassInfo
+{
+	name				"ase2_ImpOff"
+	extralives			1
+	classNumberLimit	4
+	MBClass				MB_CLASS_COMMANDER
+	weapons				WP_MELEE|WP_BLASTER_PISTOL
+
+	attributes			MB_ATT_DODGE,2|MB_ATT_RALLY,1|MB_ATT_AMMO,3|MB_ATT_PISTOL,2|MB_ATT_DEXTERITY,1|MB_ATT_TRACKING_BEACON
+
+	maxhealth			100
+	maxarmor			5
+	hackRate			.70
+
+	holdables			HI_BINOCULARS|HI_SENTRY_GUN|HI_SEEKER|HI_MEDPACK
+	classflags			CFL_STATVIEWER
+	
+	WP_Mandopistolflags	HELD_POISON|HELD_DISRUPTIFY|HELD_FLAME|HELD_PULSE|HELD_STUN|HELD_ALTRELOAD|HELD_TRACKING
+	WP_Melee			HELD_LOWDAMAGE|HELD_SPEED
+
+	basespeed			190
+	
+	resource			RESOURCE_STAMINA
+	forcepool			80
+	forceregen			1.15
+
+	model	"imperial"
+	skin		"model_officer.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"imptrench"
+	skin		"model_default.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"imperial"
+	skin		"model_ISB.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"imptrench"
+	skin		"model_ISB.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"Imperial_fml"
+	skin		"model_default.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"imperial"
+	skin		"model_lieutenant.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"imperial"
+	skin		"model_commander.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"imperial_fml"
+	skin		"model_ISB.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"imperial"
+	skin		"model_default.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"imperial"
+	skin		"model_officer2.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"imperial"
+	skin		"model_tan.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"imperial"
+	skin		"model_navy.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"imperial"
+	skin		"model_blue.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"imperial"
+	skin		"model_lieutenant.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"imperial"
+	skin		"model_commander.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"imperial"
+	skin		"model_army.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"Imperial_fml"
+	skin		"model_daala.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"imperial_fml"
+	skin		"model_officer.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"imperial_fml"
+	skin		"model.aralani.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"imperial_fml"
+	skin		"model_army.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	model	"imptrench"
+	skin		"model.LT.skin"
+	uishader	"models/players/imperial/mb2_icon_"
+
+	modelscale			1
+	uioverlay_r 		"gfx/icons/tactician"
+	uioverlay_l 		"gfx/2d/hud/hlp_defend"
+
+	special1			EAS_HI_DODGE		
+	special2			EAS_HI_SENTRY_GUN	
+	special3			EAS_HI_SEEKER		
+	special4			EAS_HI_MEDPACK		
+
+	gloatAnim			BOTH_TALKCOMM1START
+	flourishAnim		TORSO_HANDSIGNAL3
+
+}
+
+isCustomBuild	1
+mbPoints		36
+
+c_att_skill_0		MB_ATT_BLASTER_PISTOL
+c_att_names_0		"SE-1C Blaster Pistol"
+c_att_ranks_0		0,0,4
+
+c_att_skill_1		MB_ATT_BLASTER
+c_att_names_1		"E11"
+c_att_ranks_1		2,2
+
+c_att_skill_2		MB_ATT_STUN_BATON
+c_att_names_2		"Stun Baton"
+c_att_ranks_2		4
+
+c_att_skill_3		MB_ATT_RESPAWNS
+c_att_names_3		"Reinforcement"
+c_att_ranks_3		16
+c_att_descs_3		"One Granted By Default"
+
+c_att_skill_4		MB_ATT_SONIC_NADE
+c_att_names_4		"Sonic Grenade"
+c_att_ranks_4		6
+
+c_att_skill_5		MB_ATT_CONC_NADE
+c_att_names_5		"Flash Bang"
+c_att_ranks_5		4
+
+c_att_skill_6		MB_ATT_HEALTH
+c_att_names_6		"HP (110/120)"
+c_att_ranks_6		2,4
+
+c_att_skill_7		MB_ATT_ARMOUR
+c_att_names_7		"Armor (10)"
+c_att_ranks_7		4
+
+c_att_skill_8		MB_ATT_HEALING
+c_att_names_8		"Healing"
+c_att_ranks_8		4,2
+
+c_att_skill_9		MB_ATT_ASSEMBLE
+c_att_names_9		"Assemble"
+c_att_ranks_9		0,2
+
+c_att_skill_10		MB_ATT_FP_PROTECT
+c_att_names_10		"Order: Cover"
+c_att_ranks_10		10
+c_att_descs_10		"Protect 1"
+
+c_att_skill_11		MB_ATT_MANDO_PISTOL
+c_att_names_11		"Disruptor Pistol"
+c_att_ranks_11		10
+c_att_descs_11		"Hitscan, Stuns/Tracks/Ignites/Electrifies/Poisons, 1 Shot, +400% Mag Reload, -80% Damage"
+
+c_att_skill_12		MB_ATT_DODGE
+c_att_names_12		"Dodge"
+c_att_ranks_12		0,0,6
+
+c_att_skill_13		MB_ATT_FP_TEAM_FORCE
+c_att_names_13		"Order: March"
+c_att_ranks_13		10
+c_att_descs_13		"Force Energize 1"
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BLASTER_PISTOL
+	WeaponBasedOff		WP_BLASTER_PISTOL
+	NewWorldModel		"models/weapons2/se-14c_pistol/blaster_pistol_w.glm"
+	NewViewModel		"models/weapons2/se-14c_pistol/blaster_pistol.md3"
+	Icon				"gfx/hud/w_icon_se-14c"
+	WeaponName			"SE-14C Blaster Pistol"
+	FlashSound0			"sound/weapons/SE-14c/fire.mp3"
+	altFlashSound0		"sound/weapons/SE-14c/fire.mp3"
+	ChargeSound			"sound/weapons/leia_pistol/altcharge.mp3"
+	clipSize			15
+	customAmmo			400
+	ReloadTimeModifier	1
+	rateMod				1.05
+}
+
+WeaponInfo1
+{
+	WeaponToReplace			WP_CONC_NADE
+	WeaponBasedOff			WP_CONC_NADE
+	NewWorldModel			"models/weapons/Grenade_Concussion/model.glm"
+	NewViewModel			"models/weapons/Grenade_Concussion/viewmodel.md3"
+	MissileModel 			"models/weapons/Grenade_Concussion/proj.md3"
+	altMissileMissEffect	"Grenades/EXP_Flash"
+	MissileMissEffect		"Grenades/EXP_Flash"
+	altMissileHitHumanEffect	"Grenades/EXP_Flash"
+	missileHitHumanEffect		"Grenades/EXP_Flash"
+	altMissileHitDroidEffect	"Grenades/EXP_Flash"
+	missileHitDroidEffect		"Grenades/EXP_Flash"
+	Icon					"gfx/hud/w_icon_stungrenade"
+	WeaponName				"Flash Bang"
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_MANDO_PISTOL
+	WeaponBasedOff		WP_CONCUSSION
+	NewWorldModel		"models/weapons2/imp_pistol/pistol_w.glm"
+	NewViewModel		"models/weapons2/imp_pistol/pistol_fpv.md3"
+	Icon				"gfx/hud/w_icon_imp_pistol"
+	ChargeSound			"sound/weapons/leia_pistol/altcharge.mp3"
+	WeaponName			"Disruptor Pistol"
+	clipSize			1
+	customAmmo			9
+	primHitscanShot		1
+	primHitscanTracer	10
+	primGore			1
+	Velocitymod			1.25
+	damageMod			0.1
+	rateMod				1
+	FPChargeMult		1
+	reloadTimeModifier	4
+	AltMuzzleEffect		"Blaster/MuzzleFlash01G"
+	AltFlashSound0		"sound/weapons/firegun/fire.wav"
+	AltMissileEffect	"Blaster/Shot11G"
+	AltMissile3Effect	"Blaster/Shot03G"
+	FlashSound0			"sound/weapons/firegun/fire.wav"
+	MuzzleEffect		null
+	ChargeEffect		"gfx/effects/greenFrontFlash"
+	OverchargeEffect	"Blaster/MuzzleCharge01G"
+	PowerupShotEffect	"Blaster/Shot04G"
+
+	hasAnimOverrides	1
+	animReadyRun		BOTH_WESTARM5_IDLE
+	animReady			BOTH_WESTARM5_IDLE
+	animReadyWalk		BOTH_WESTARM5_READY
+	animReadyNoAmmo		BOTH_WESTARM5_ATTACK
+	animAttackRun		BOTH_WESTARM5_ATTACK
+	animAttack			BOTH_WESTARM5_ATTACK
+	animAttackWalk		BOTH_WESTARM5_ATTACK
+	altFireEnabled		0
+}
+
+description	"Imperial Officer
+
+A customizable multilife Imperial Officer with several gadgets who can specialize in inspiring allies, special grenades, and utility.
+
+^2Weaponry:
+- Melee
+- SE-14C Blaster Pistol (2)
+-- +5% Rate of Fire
+
+^6Inventory:
+- Binoculars
+- Sentry Gun ^3[CS2]
+- Seeker Droid ^3[CS3]
+- Medpack ^3[CS4]
+
+^8Attributes:
+- Dexterity (1)
+- Rally
+- Logistical Insight (Ally Stat Viewer)
+- Inspiring Voice (Lights Beacon)
+- Desk Jockey (-50% Melee Damage)
+- Cowardice (+15% Movement Speed)
+- Tech Smart (+30% Hack Speed)
+- High Command (Tracking Beacon)
+
+^3Abilities:
+- Dodge (2) ^3[CS1]"
+
+
