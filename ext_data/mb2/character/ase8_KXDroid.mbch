@@ -67,17 +67,17 @@ ClassInfo
     c_att_skill_1	MB_ATT_BLASTER
 	c_att_names_1	"Modified KX E-11 Blaster"
 	c_att_ranks_1	10,0,5
-	c_att_descs_1	"Sec. Fire Only. -15% Dmg, +5% FP DMG & Velocity, & Mag Reload"
+	c_att_descs_1	"Sec. Fire Only. -25% Dmg, +10% FP DMG & Velocity, & Mag Reload"
 
 	c_att_skill_2	MB_ATT_T21
 	c_att_names_2	"Hypervelocity T21 Rifle"
 	c_att_ranks_2	20,0,0
-	c_att_descs_2	"-15% Dmg, +30% Velocity & Mag Reload"
+	c_att_descs_2	"-25% Dmg, +40% Velocity & Mag Reload"
 
 	c_att_skill_3	MB_ATT_E_22
 	c_att_names_3	"Modified E-22 Blaster"
 	c_att_ranks_3	20,0,0
-	c_att_descs_3	"-15% Dmg, +10% FP Damage & Mag Reload"
+	c_att_descs_3	"-25% Dmg, +15% FP Damage & Mag Reload"
 
 	c_att_skill_4	MB_ATT_HEALTH
 	c_att_names_4	"Health (150/175/200)"
@@ -123,9 +123,9 @@ WeaponInfo0
 	Icon			"gfx/hud/w_icon_E11"
 	primFireEnabled	0
 	customAmmo 800
-	FPmult 1.05
-    velocityMod 1.05
-	DamageMod 0.85
+	FPmult 1.10
+    velocityMod 1.10
+	DamageMod 0.75
 }
 
 WeaponInfo1
@@ -137,8 +137,8 @@ WeaponInfo1
 	Icon			"gfx/hud/w_icon_t-21"
 	WeaponName		"High Velocity T-21 Blaster Rifle"
 	customAmmo 720
-	velocityMod 1.30
-	DamageMod 0.85
+	velocityMod 1.40
+	DamageMod 0.75
 }
 
 WeaponInfo2
@@ -150,8 +150,8 @@ WeaponInfo2
 	Icon			"gfx/hud/w_icon_e_22"
 	WeaponName		"High Powered E-22 Blaster Rifle"
 	customAmmo 720
-    FPMult 1.10
-	DamageMod 0.85
+    FPMult 1.15
+	DamageMod 0.75
 }
 
 WeaponInfo3

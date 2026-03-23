@@ -150,7 +150,7 @@ To return aged veterans of the Clone Wars to peak condition, their limbs and org
 ^2Weaponry:
 - Melee
 - Heavy ARC Caster (Shotgun 2)
---Electrifies on hit, 75% less velocity, 75% slower mag reload, 15% less damage
+--Electrifies on hit, -75% Velocity, -75% Mag Reload Speed, -15% Damage
 
 ^8Attributes:
 - Strength (1)
@@ -167,4 +167,4 @@ To return aged veterans of the Clone Wars to peak condition, their limbs and org
 ^3Abilities:
 - Jetpack
 - Tracking Darts (4) ^3[CS1 Melee]
-- Dexterity Roll ^3[CS3]"
+- Dex Roll ^3[CS3]"
