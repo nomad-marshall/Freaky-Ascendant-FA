@@ -260,7 +260,7 @@ WeaponInfo6
 	Icon				"gfx/hud/w_icon_MiniMag"
 	WeaponName			"MiniMag PTL Launcher"
 }
-description	"Elite Stormtrooper"
+description	"Elite Stormtrooper
 
 A Veteran Stormtrooper who specializes in leadership, combat skills and utility.
 
@@ -279,4 +279,4 @@ A Veteran Stormtrooper who specializes in leadership, combat skills and utility.
 - +10% Hack Speed
 
 ^3Abilities:
-- Dodge (2) [CS2]
+- Dodge (2) [CS2]"

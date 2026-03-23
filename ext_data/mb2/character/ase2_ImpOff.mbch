@@ -26,89 +26,89 @@ ClassInfo
 	forcepool			80
 	forceregen			1.15
 
-	model	"imperial"
-	skin		"model_officer.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model		"imperial"
+skin		"officer"
+uishader	"models/players/imperial/mb2_icon_officer"
 
-	model	"imptrench"
-	skin		"model_default.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_1		"imptrench"
+skin_1		"default"
+uishader_1	"models/players/imptrench/mb2_icon_default"
 
-	model	"imperial"
-	skin		"model_ISB.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_2		"imperial"
+skin_2		"isb"
+uishader_2	"models/players/imperial/mb2_icon_isb"
 
-	model	"imptrench"
-	skin		"model_ISB.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_3		"imptrench"
+skin_3		"isb"
+uishader_3	"models/players/imptrench/mb2_icon_isb"
 
-	model	"Imperial_fml"
-	skin		"model_default.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_4		"imperial_fml"
+skin_4		"default"
+uishader_4	"models/players/imperial_fml/mb2_icon_default"
 
-	model	"imperial"
-	skin		"model_lieutenant.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_5		"imperial"
+skin_5		"lieutenant"
+uishader_5	"models/players/imperial/mb2_icon_lieutenant"
 
-	model	"imperial"
-	skin		"model_commander.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_6		"imperial"
+skin_6		"commander"
+uishader_6	"models/players/imperial/mb2_icon_commander"
 
-	model	"imperial_fml"
-	skin		"model_ISB.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_7		"imperial_fml"
+skin_7		"isb"
+uishader_7	"models/players/imperial_fml/mb2_icon_isb"
 
-	model	"imperial"
-	skin		"model_default.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_8		"imperial"
+skin_8		"default"
+uishader_8	"models/players/imperial/mb2_icon_default"
 
-	model	"imperial"
-	skin		"model_officer2.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_9		"imperial"
+skin_9		"officer2"
+uishader_9	"models/players/imperial/mb2_icon_officer2"
 
-	model	"imperial"
-	skin		"model_tan.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_10	"imperial"
+skin_10		"tan"
+uishader_10	"models/players/imperial/mb2_icon_tan"
 
-	model	"imperial"
-	skin		"model_navy.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_11	"imperial"
+skin_11		"navy"
+uishader_11	"models/players/imperial/mb2_icon_navy"
 
-	model	"imperial"
-	skin		"model_blue.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_12	"imperial"
+skin_12		"blue"
+uishader_12	"models/players/imperial/mb2_icon_blue"
 
-	model	"imperial"
-	skin		"model_lieutenant.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_13	"imperial"
+skin_13		"lieutenant"
+uishader_13	"models/players/imperial/mb2_icon_lieutenant"
 
-	model	"imperial"
-	skin		"model_commander.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_14	"imperial"
+skin_14		"commander"
+uishader_14	"models/players/imperial/mb2_icon_commander"
 
-	model	"imperial"
-	skin		"model_army.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_15	"imperial"
+skin_15		"army"
+uishader_15	"models/players/imperial/mb2_icon_army"
 
-	model	"Imperial_fml"
-	skin		"model_daala.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_16	"imperial_fml"
+skin_16		"daala"
+uishader_16	"models/players/imperial_fml/mb2_icon_daala"
 
-	model	"imperial_fml"
-	skin		"model_officer.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_17	"imperial_fml"
+skin_17		"officer"
+uishader_17	"models/players/imperial_fml/mb2_icon_officer"
 
-	model	"imperial_fml"
-	skin		"model.aralani.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_18	"imperial_fml"
+skin_18		"aralani"
+uishader_18	"models/players/imperial_fml/mb2_icon_aralani"
 
-	model	"imperial_fml"
-	skin		"model_army.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_19	"imperial_fml"
+skin_19		"army"
+uishader_19	"models/players/imperial_fml/mb2_icon_army"
 
-	model	"imptrench"
-	skin		"model.LT.skin"
-	uishader	"models/players/imperial/mb2_icon_"
+model_20	"imptrench"
+skin_20		"lt"
+uishader_20	"models/players/imptrench/mb2_icon_lt"
 
 	modelscale			1
 	uioverlay_r 		"gfx/icons/tactician"
@@ -121,8 +121,6 @@ ClassInfo
 
 	gloatAnim			BOTH_TALKCOMM1START
 	flourishAnim		TORSO_HANDSIGNAL3
-
-}
 
 isCustomBuild	1
 mbPoints		36
@@ -186,6 +184,8 @@ c_att_skill_13		MB_ATT_FP_TEAM_FORCE
 c_att_names_13		"Order: March"
 c_att_ranks_13		10
 c_att_descs_13		"Force Energize 1"
+
+}
 
 WeaponInfo0
 {
