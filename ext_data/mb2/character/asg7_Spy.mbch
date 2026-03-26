@@ -8,20 +8,20 @@ ClassInfo
 	MBClass		MB_CLASS_ARCTROOPER
 	weapons		WP_MELEE|WP_THROWER
 	
-	attributes	MB_ATT_AMMO,3|MB_ATT_TRACKING_BEACON|MB_ATT_THROWER_POISON|MB_ATT_DET_PACK,4|MB_ATT_DEXTERITY,2
+	attributes	MB_ATT_AMMO,3|MB_ATT_TRACKING_BEACON|MB_ATT_THROWER_PLASMA|MB_ATT_DET_PACK,4|MB_ATT_DEXTERITY,2
 	maxhealth	80
 	MaxArmor	50
 	
 	resource		RESOURCE_ENERGY
 	forcepool	200
 
-	WP_ThrowerFlags HELD_FLAME|HELD_TRACKING|HELD_ALTRELOAD|HELD_DISRUPTIFY
+	WP_ThrowerFlags HELD_TRACKING|HELD_ALTRELOAD|HELD_DISRUPTIFY
 	WP_MeleeFlags HELD_SPEED
 	classflags 	CFL_SEEING_STEALTH
 	holdables	HI_CLOAK|HI_STIMPACK
 
 	baseSpeed 250
-	damageGiven 2.0
+
 	uioverlay_l "gfx/icons/tactician"
 	uioverlay_r "gfx/icons/infantry"
 	tauntAnim	BOTH_SABERKILLER1
@@ -50,8 +50,8 @@ NewViewModel "models/weapons2/CR-1_cannon/rifle.md3"
 Icon "gfx/hud/w_icon_CR1_blastCannon"
 WeaponName	"CR-41 Incinerator"
 customAmmo 600
-clipSize 30
-reloadTimeModifier 1.25
+clipSize 20
+rateMod 1.5 //slower ignite
 }
 
 description	"Bothan Spy 
@@ -61,7 +61,7 @@ A cloaked infiltrator specializing in close range assassinations.
 ^2Weaponry:
 -Melee
 -CR-41 Incinerator
---Poisons, ignites and tracks. Magazine reload.
+--50% RoF (for slower ignite). Applies temporary tracking. Magazine reload.
 ^6Inventory:
 -Stimpack
 -Cloaking Device

@@ -5,14 +5,12 @@ ClassInfo
 	classNumberLimit 3
 	MBClass	MB_CLASS_MANDALORIAN
 	weapons WP_MELEE|WP_SABER
-	attributes MB_ATT_JETPACK|MB_ATT_DASH,2|MB_ATT_WRISTLASER|MB_ATT_FLAMETHROWER|MB_ATT_WHISTLINGBIRD,1|MB_ATT_TRACKING_DART,1|MB_ATT_STAMINA|MB_ATT_GUN_DEFENSE,1|MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_DEXTERITY,3|MB_ATT_BESKAR,1|MB_ATT_TRACKING_BEACON|MB_ATT_BLAST_ARMOUR
+	attributes MB_ATT_JETPACK|MB_ATT_DASH,2|MB_ATT_WRISTLASER|MB_ATT_FLAMETHROWER|MB_ATT_WHISTLINGBIRD,1|MB_ATT_TRACKING_DART,1|MB_ATT_STAMINA|MB_ATT_GUN_DEFENSE,1|MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_DEXTERITY,3|MB_ATT_BESKAR,2|MB_ATT_TRACKING_BEACON|MB_ATT_BLAST_ARMOUR
 
 	baseSpeed 210
 	
 	maxhealth 80
-	rankHealth 150
 	maxarmor 80
-	rankArmor 150
 	
 	skilltimerMod 1
 	rankSTM 0.75
@@ -28,13 +26,16 @@ ClassInfo
 	BPmultiplier 	0.3
 	
 	AB_WLaserFlags HELD_STUN
-	AB_WBirdsFlags HELD_PULSE
-	AB_TDartFlags  HELD_FLAME
+	AB_WBirdsFlags HELD_FLAME
+	AB_TDartFlags  HELD_PULSE
 	
 	special1	EAS_HI_TRACKER
 	special2	EAS_HI_FLAME
 	special3	EAS_HI_DASH
 	special4	EAS_HI_WHISTLING_BIRDS
+	
+	special1HUD HUD_TRACKINGDART
+	special2HUD HUD_WHISTLINGBIRDS
 	
 	model "mbmandyfem"
 	skin "rgb"
@@ -47,29 +48,23 @@ ClassInfo
 	userRGB_1 1
 	
 	isCustomBuild 1
-	mbPoints 6
+	mbPoints 4
 	
 	c_att_skill_0	MB_ATT_RESPAWNS
 	c_att_names_0 	"Reinforcement (1)"
-	c_att_ranks_0 	6
-	c_att_skill_1	MB_ATT_HEALTH
-	c_att_names_1	"Health (150)"
-	c_att_ranks_1	1
-	c_att_skill_2	MB_ATT_ARMOUR
-	c_att_names_2	"Armor (150)"
+	c_att_ranks_0 	4
+	c_att_skill_1	MB_ATT_WHISTLINGBIRD
+	c_att_names_1	"Whistling Birds"
+	c_att_ranks_1	0,1,0
+	c_att_skill_2	MB_ATT_STM_MULTIPLIER
+	c_att_names_2	"Skill CD (125%)"
 	c_att_ranks_2	1
-	c_att_skill_3	MB_ATT_WHISTLINGBIRD
-	c_att_names_3	"Whistling Birds"
-	c_att_ranks_3	0,1,0
-	c_att_skill_4	MB_ATT_STM_MULTIPLIER
-	c_att_names_4	"Skill CD (125%)"
-	c_att_ranks_4	1
-	c_att_skill_5	MB_ATT_STAMINA
-	c_att_names_5	"Stamina"
-	c_att_ranks_5	1,0,0
-	c_att_skill_6	MB_ATT_TRACKING_DART
-	c_att_names_6	"Tracking Darts"
-	c_att_ranks_6	0,1,0
+	c_att_skill_3	MB_ATT_STAMINA
+	c_att_names_3	"Stamina"
+	c_att_ranks_3	1,0,0
+	c_att_skill_4	MB_ATT_TRACKING_DART
+	c_att_names_4	"Tracking Darts"
+	c_att_ranks_4	0,1,0
 }
 WeaponInfo0
 {
@@ -93,15 +88,16 @@ A Mandalorian that uses a wide array of unconventional but upgraded gadgets.
 ^8Attributes:
 - Stamina (0)
 - Dexterity (3)
-- Beskar (3)
+- Beskar (2)
 - Blast Armor
 - Tracking Beacon
 	
 ^3Abilities:
 - Jetpack
-- Tracking Darts (2) ^3[CS1 Melee]
--- Ignites on hit
+- Tracking Darts ^3[CS1 Melee]
+--Shocks on hit
 - Wrist Laser/Flamer ^3[CS2]
+--Laser staggers on hit
 - Dash (2) ^3[CS3]
 - Whistling Birds (12)^3[CS4]
--- Shocks on hit"
+--Ignites on hit"

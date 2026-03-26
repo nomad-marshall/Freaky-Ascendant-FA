@@ -10,6 +10,7 @@ MaxArmor 20
 rankArmor 30,60,80
 resource resource_stamina
 forcepool 80
+rankForcePool 100,120
 MBClass MB_CLASS_HERO
 classNumberLimit 3
 holdables HI_SEEKER
@@ -27,7 +28,7 @@ WP_TradBowcasterFlags HELD_POISON|HELD_ALTRELOAD
 WP_ClonePistolFlags HELD_KNOCKBACK|HELD_KNOCKDOWN|HELD_ALTRELOAD|HELD_STUN
 WP_DEMP2Flags HELD_PULSE|HELD_ALTRELOAD
 AB_TDartFlags HELD_POISON
-AB_WBirdsFlags HELD_FLAME
+AB_WBirdsFlags HELD_FLAME|HELD_LOWDAMAGE
 AB_WLaserFlags HELD_LOWDAMAGE|HELD_STUN
 
 uioverlay "gfx/icons/tactician"
@@ -40,8 +41,8 @@ isCustomBuild 1
 mbPoints 50
 c_att_skill_1 MB_ATT_TRAD_BOWCASTER
 c_att_names_1 "Two-shot Toxin Bowcaster:"
-c_att_ranks_1 5,10,0
-c_att_descs_1 "75% faster Rof. 20% less velocity. 50% less damage. Poisons on hit."
+c_att_ranks_1 5,10
+c_att_descs_1 "75% faster Rof. 50% less velocity. 50% less damage. Poisons on hit."
 c_att_skill_2 MB_ATT_AMBAN
 c_att_names_2 "Flammable DLT-18 DMR:"
 c_att_ranks_2 10,1
@@ -97,10 +98,10 @@ Icon "gfx/hud/w_icon_bowcaster"
 WeaponName "Toxin Bowcaster"
 FlashSound0 "sound/weapons/kotor/fire_power2"
 AltFlashSound0 "sound/weapons/EL-16/alt_fire.wav"
-CustomAmmo 600
+CustomAmmo 360
 clipSize 24
 rateMod .25
-velocityMod 0.8
+velocityMod 0.5
 damageMod .5
 }
 WeaponInfo1
@@ -224,4 +225,4 @@ An elite saboteur with damage over time weapons and getaway tools.
 -Dash ^3[CS3]
 -Grappling Hook ^3[CS4 Melee]
 -Whistling Birds (12) ^3[CS4]
---Ignites on hit."
+--50% less damage. Ignites on hit."

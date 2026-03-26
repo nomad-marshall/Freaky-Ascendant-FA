@@ -22,7 +22,7 @@ ClassInfo
 	basespeed 235
 	
 	WP_ClonePistolFlags HELD_ALTRELOAD
-	AB_WBirdsFlags	HELD_PULSE|HELD_TRACKING|HELD_LOWDAMAGE
+	AB_WBirdsFlags	HELD_TRACKING
 	
 	holdables HI_MEDPAC_BIG
 	special1    EAS_HI_KICK
@@ -164,6 +164,6 @@ A highly mobile elite trooper. Best of the best.
 ^3Abilities:
 - Gunkick ^3[CS1]
 - Dexterity Roll ^3[CS2]
-- Whistling Birds (24) ^3[CS3]
--- Shocks/Tracks
+- Whistling Birds (36) ^3[CS3]
+--Tracks on hit
 - Grappling Hook (3) ^3[CS4 Melee]"

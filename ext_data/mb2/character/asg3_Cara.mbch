@@ -87,12 +87,11 @@ WeaponInfo1
 	AltMissileEffect	"Blaster/Shot04r"
 	WeaponName  "Cara's Sniper Rifle"
 	primFireEnabled 0
-	customammo	60
-	ClipSize    4
+	customammo	30
+	ClipSize    1
 	velocityMod 1.25
-	damageMod 0.85
+	damageMod 1.25
  	FPMult 1.25
-	rateMod 0.75
 }
 
 WeaponInfo2
@@ -133,10 +132,8 @@ A tanky brawler with a heavy suppression rifle, sniper, and knife.
 -- -15% Movement Speed
 -- -15% Damage
 - Cara's Sniper Rifle (Amban 2)
--- 4 Shot Magazine
 -- +25% Velocity
--- -15% Damage
--- +25% Fire Rate
+-- +25% Damage
 -- +25% FP Damage
 - Cara's Sidearm Pistol (Pistol 1)
 -- +15% FP Damage

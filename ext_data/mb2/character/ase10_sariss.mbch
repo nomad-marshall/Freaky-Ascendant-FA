@@ -7,7 +7,7 @@ ClassInfo
 	saber1			saber_sariss
 	sabercolor		4
 	saberstyle		SS_FAST|SS_MEDIUM|SS_TAVION
-	forcepowers		FP_LEVITATION,3|FP_GRIP,2|FP_SABER_OFFENSE,2|FP_SABER_DEFENSE,3|FP_DEADLYSIGHT,1|FP_SEE,2
+	forcepowers		FP_LEVITATION,3|FP_GRIP,2|FP_SABER_OFFENSE,2|FP_SABER_DEFENSE,3|FP_DEADLYSIGHT,2|FP_SEE,2
 	attributes		MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_GUN_DEFENSE,2|MB_ATT_FORCEFOCUS,3|MB_ATT_FORCEBLOCK,2
 	maxhealth		120
 	forcepool		120
@@ -32,7 +32,7 @@ A Fencing Class with Deadly Sight, able to damage enemies at range with ease by 
 ^5Force Powers:
 - Force Jump (3)
 - Force Grip (2)
-- Deadly Sight (1)
+- Deadly Sight (2)
 - Force Sense (2)
 - Force Block (2)
 - Force Focus (3)"

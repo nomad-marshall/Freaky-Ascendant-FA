@@ -78,7 +78,7 @@ description	"Trade Federation Leader [Mandalorian]
 ^8Attributes:
 - Large Personal Shield
 - Health, Armor & Resource Dispenser (1) ^3['Use' on ^3allies]
--- +8 range
+-- +8 Range
 - Rally
 - Tracking Beacon
 - Gun Kick ^3[CS3]
