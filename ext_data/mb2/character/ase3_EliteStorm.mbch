@@ -1,8 +1,8 @@
 ClassInfo
 {
 	name				"ase3_EliteStorm"
-	weapons			WP_MELEE|WP_BLASTER_PISTOL
-	attributes		MB_ATT_AMMO,3|MB_ATT_PISTOL,2|MB_ATT_DODGE,2|MB_ATT_BLAST_ARMOUR|MB_ATT_ASSEMBLE,1
+	weapons			WP_MELEE
+	attributes		MB_ATT_AMMO,3|MB_ATT_DODGE,2|MB_ATT_BLAST_ARMOUR|MB_ATT_ASSEMBLE,1
 	
 	MBClass			MB_CLASS_CLONETROOPER
     holdables       	HI_MEDPAC
@@ -13,8 +13,8 @@ ClassInfo
 	
 	extralives		1
 	
-	maxhealth		80
-	rankHealth		90,100
+	maxhealth		60
+	rankHealth		70,80
 
 	maxArmor 		35
 	rankArmor		55,70
@@ -25,7 +25,7 @@ ClassInfo
 	
 	resource RESOURCE_STAMINA
 	forcepool 80
-	forceregen	1.4
+	forceregen	1.8
 	
 	//WP_MeleeFlags 	HELD_SPEED
 	//WP_EE4Flags	HELD_SLOW
@@ -74,15 +74,19 @@ ClassInfo
 	isCustomBuild		1
 	mbPoints			50
 
+	c_att_skill_0		MB_ATT_BLASTER_PISTOL
+	c_att_names_0		"SE-1C Blaster Pistol"
+	c_att_ranks_0		0,0		
+
 	c_att_skill_0		MB_ATT_BLASTER
-	c_att_names_0		"Modifed E-11 Blaster Rifle"
+	c_att_names_0		"Modified E-11 Blaster Rifle"
 	c_att_ranks_0		1,1,1
 	c_att_descs_0		"+5% Velocity & Damage"
 	
 	c_att_skill_1		MB_ATT_EE4
 	c_att_names_1		"DLT-19D Heavy Blaster Rifle"
 	c_att_ranks_1		8
-	c_att_descs_1		"+35% Rate of Fire, -5% Damage, -30% FP Damage, -15% Movement Speed"
+	c_att_descs_1		"+60% Rate of Fire, -5% Damage, -30% FP Damage, -15% Movement Speed"
 	
 	c_att_skill_2		MB_ATT_SHOTGUN
 	c_att_names_2		"Imperial Vanguard Shotgun"
@@ -129,7 +133,7 @@ ClassInfo
 	c_att_descs_11		"Dexterity (1) And Dex Roll [CS2]"
 	
 	c_att_skill_12		MB_ATT_PLX1
-	c_att_names_12		"PLX Rocket Launcher"
+	c_att_names_12		"MiniMag PTL Launcher"
 	c_att_ranks_12		10
 	
 	c_att_skill_13		MB_ATT_GRAPPLE_HOOK
@@ -160,7 +164,7 @@ WeaponInfo0
 	customAmmo 			768
 	clipSize			64
 	FPMult 				0.70
-	rateMod 0.65
+	rateMod 0.40
 	damageMod 0.95
 }
 {
@@ -171,10 +175,9 @@ NewWorldModel	"models/weapons2/cp-50_repeater/cp-50_repeater_w.glm"
 NewViewModel	"models/weapons2/cp-50_repeater/cp-50_repeater.md3"
 Icon	"gfx/hud/w_icon_cp-50_repeater"
 WeaponName "Imperial Vanguard Shotgun"
-clipSize 10
-primaryfireenabled 1
+clipSize 70
 altFireEnabled 0
-Customammo 300
+Customammo 400
 ReloadTimeModifier 1.8
 ratemod 0.85
 damagemod 0.70
@@ -218,14 +221,14 @@ WeaponBasedOff	WP_BLASTER
 NewWorldModel	"models/weapons2/blaster_r/blaster_w.glm"
 NewViewModel	"models/weapons2/blaster_r/blaster.md3"
 Icon	"gfx/hud/w_icon_E11"
-WeaponName	"E-11 Blaster Rifle"
+WeaponName	"Modified E-11 Blaster Rifle"
 customAmmo	680
 Velocitymod 1.05
 damagemod 1.05
 }
 WeaponInfo5 
 {
-	WeaponToReplace			WP_MICRO_GRENADES
+	WeaponToReplace			WP_CONC_NADE
 	WeaponBasedOff			WP_CONC_NADE
 NewWorldModel	"models/weapons2/thermal/thermal_w.glm"
 NewViewModel "models/weapons2/thermal/thermal.md3"
@@ -269,7 +272,6 @@ A Veteran Stormtrooper who specializes in leadership, combat skills and utility.
 
 ^2Weaponry:
 - Melee
-- SE-14C Blaster Pistol (2)
 
 ^6Inventory:
 - Medpac ^3[CS3]

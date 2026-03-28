@@ -25,17 +25,13 @@ ClassInfo
 	skin_1		"default"
 	uishader_1 	"models/players/adigallia/mb2_icon_default"
 	
-	model_2		"jedi_kotor"
-	skin_2		"zhar"
-	uishader_2	"models/players/jedi_kotor/mb2_icon_zhar"
+	model_2		"rey"
+	skin_2		"default"
+	uishader_2	"models/players/rey/mb2_icon_default"
 	
 	model_3		"rey"
-	skin_3		"default"
-	uishader_3	"models/players/rey/mb2_icon_default"
-	
-	model_4		"rey"
-	skin_4		"jedi"
-	uishader_4	"models/players/rey/mb2_icon_jedi"
+	skin_3		"jedi"
+	uishader_3	"models/players/rey/mb2_icon_jedi"
 
 	saber1			saber_adi
 	sabercolor		3

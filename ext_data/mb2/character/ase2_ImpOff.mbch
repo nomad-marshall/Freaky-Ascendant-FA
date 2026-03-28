@@ -10,7 +10,7 @@ ClassInfo
 
 	classflags			CFL_STATVIEWER
 
-	attributes			MB_ATT_DODGE,2|MB_ATT_RALLY,1|MB_ATT_AMMO,3|MB_ATT_PISTOL,2|MB_ATT_DEXTERITY,1|MB_ATT_TRACKING_BEACON|MB_ATT_LIGHTS_BEACON
+	attributes			MB_ATT_DODGE,2|MB_ATT_RALLY,1|MB_ATT_AMMO,3|MB_ATT_DEXTERITY,1|MB_ATT_TRACKING_BEACON|MB_ATT_LIGHTS_BEACON
 
 	maxhealth			100
 	rankhealth			110,120
@@ -34,9 +34,13 @@ model		"imperial"
 skin		"officer"
 uishader	"models/players/imperial/mb2_icon_officer"
 
-model_1		"imptrench"
-skin_1		"default"
-uishader_1	"models/players/imptrench/mb2_icon_default"
+model_1		"imperial_fml"
+skin_1		"officer"
+uishader_1	"models/players/imperial_fml/mb2_icon_officer"
+
+model_2		"imptrench"
+skin_2		"lt"
+uishader_2	"models/players/imptrench/mb2_icon_lt"
 
 	modelscale			1
 	uioverlay_r 		"gfx/icons/tactician"
@@ -74,9 +78,10 @@ c_att_skill_4		MB_ATT_SONIC_DETONATOR
 c_att_names_4		"Sonic Grenade"
 c_att_ranks_4		6
 
-c_att_skill_5		MB_ATT_MICRO_GRENADES
+c_att_skill_5		MB_ATT_FRAG_NADE
 c_att_names_5		"Flash Bang"
 c_att_ranks_5		4
+c_att_descs_5		"Blinds/staggers on det, Sec only. 99.9% less Dmg, 40% faster RoF"
 
 c_att_skill_6		MB_ATT_HEALTH
 c_att_names_6		"HP (110/120)"
@@ -99,7 +104,7 @@ c_att_names_10		"Order: Cover"
 c_att_ranks_10		10
 c_att_descs_10		"Protect 1"
 
-c_att_skill_11		MB_ATT_MANDO_PISTOL
+c_att_skill_11		MB_ATT_BRYAR_OLD
 c_att_names_11		"Disruptor Pistol"
 c_att_ranks_11		10
 c_att_descs_11		"Hitscan, Stuns/Burns/Electrifies/Poisons/Tracks, Low Ammo and Damage."
@@ -133,33 +138,37 @@ WeaponInfo0
 }
 
 WeaponInfo1
-{
-	WeaponToReplace			MB_ATT_MICRO_GRENADES
-	WeaponBasedOff			WP_CONC_NADE
-	NewWorldModel			"models/weapons/Grenade_Concussion/model.glm"
-	NewViewModel			"models/weapons/Grenade_Concussion/viewmodel.md3"
-	MissileModel 			"models/weapons/Grenade_Concussion/proj.md3"
+{	
+	WeaponToReplace	WP_FRAG_NADE
+	WeaponBasedOff	WP_FRAG_NADE
+	NewWorldModel	"models/weapons/Grenade_Concussion/model.glm"
+	NewViewModel	"models/weapons/Grenade_Concussion/viewmodel.md3"
+	MissileModel "models/weapons/Grenade_Concussion/proj.md3"
+	altMissileModel "models/weapons/Grenade_Concussion/proj.md3"
 	altMissileMissEffect	"Grenades/EXP_Flash"
-	MissileMissEffect		"Grenades/EXP_Flash"
+	MissileMissEffect	"Grenades/EXP_Flash"
 	altMissileHitHumanEffect	"Grenades/EXP_Flash"
-	missileHitHumanEffect		"Grenades/EXP_Flash"
+	missileHitHumanEffect	"Grenades/EXP_Flash"
 	altMissileHitDroidEffect	"Grenades/EXP_Flash"
-	missileHitDroidEffect		"Grenades/EXP_Flash"
-	Icon					"gfx/hud/w_icon_stungrenade"
-	WeaponName				"Flash Bang"
+	missileHitDroidEffect	"Grenades/EXP_Flash"
+	Icon	"gfx/hud/w_icon_stungrenade"
+	WeaponName	"Flashbang Grenades"
+	primFireEnabled			0
+	damagemod 0.001
+	ratemod 0.6
 }
 
 WeaponInfo2
 {
-	WeaponToReplace		WP_MANDO_PISTOL
+	WeaponToReplace		WP_BRYAR_OLD
 	WeaponBasedOff		WP_CONCUSSION
 	NewWorldModel		"models/weapons2/imp_pistol/pistol_w.glm"
 	NewViewModel		"models/weapons2/imp_pistol/pistol_fpv.md3"
 	Icon				"gfx/hud/w_icon_imp_pistol"
 	ChargeSound			"sound/weapons/leia_pistol/altcharge.mp3"
 	WeaponName			"Disruptor Pistol"
-	clipSize			2
-	customAmmo			18
+	clipSize			1
+	customAmmo			9
 	primHitscanShot		1
 	primHitscanTracer	10
 	primGore			1
@@ -167,7 +176,7 @@ WeaponInfo2
 	damageMod			0.1
 	rateMod				1
 	FPChargeMult		1
-	reloadTimeModifier	4
+	reloadTimeModifier	2
 	AltMuzzleEffect		"Blaster/MuzzleFlash01G"
 	AltFlashSound0		"sound/weapons/firegun/fire.wav"
 	AltMissileEffect	"Blaster/Shot11G"
@@ -181,10 +190,6 @@ WeaponInfo2
 	animReadyRun TORSO_WEAPONIDLE2
 	animReady TORSO_WEAPONIDLE2
 	animReadyWalk TORSO_WEAPONIDLE2
-	animReadyNoAmmo BOTH_ATTACK2 
-	animAttackRun BOTH_ATTACK2 
-	animAttack BOTH_ATTACK2 
-	animAttackWalk BOTH_ATTACK2
 	FPChargeMult	1.2
 }
 
