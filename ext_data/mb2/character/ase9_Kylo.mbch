@@ -74,10 +74,6 @@ ClassInfo
 	model_8		"ben_swolo"
 	skin_8			"default"
 	uishader_8		"models/players/ben_swolo/mb2_icon_default"
-	
-	model_9		"matradartech"
-	skin_9		"default"
-	uishader_9	"models/players/matradartech/kylo_swolo_icon"
 }
 
 description	"Kylo Ren [Sith]

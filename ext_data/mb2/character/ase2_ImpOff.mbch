@@ -6,7 +6,7 @@ ClassInfo
 	extralives			1
 	classNumberLimit	4
 	MBClass				MB_CLASS_COMMANDER
-	weapons				WP_MELEE|WP_BLASTER_PISTOL
+	weapons				WP_MELEE
 
 	classflags			CFL_STATVIEWER
 
@@ -34,11 +34,11 @@ model		"imperial"
 skin		"officer"
 uishader	"models/players/imperial/mb2_icon_officer"
 
-model_1		"imperial_fml"
-skin_1		"officer"
-uishader_1	"models/players/imperial_fml/mb2_icon_officer"
+model_1	"imperial_fml"
+skin_1		"default"
+uishader_1	"models/players/imperial_fml/mb2_icon_default"
 
-model_2		"imptrench"
+model_2	"imptrench"
 skin_2		"lt"
 uishader_2	"models/players/imptrench/mb2_icon_lt"
 
@@ -55,11 +55,12 @@ uishader_2	"models/players/imptrench/mb2_icon_lt"
 	flourishAnim		TORSO_HANDSIGNAL3
 
 isCustomBuild	1
-mbPoints		36
+mbPoints		40
 
 c_att_skill_0		MB_ATT_BLASTER_PISTOL
 c_att_names_0		"SE-1C Blaster Pistol"
-c_att_ranks_0		0,0,4
+c_att_ranks_0		0,0,2
+c_att_descs_0		"5 Percent Faster ROF, Less Clip Size"
 
 c_att_skill_1		MB_ATT_BLASTER
 c_att_names_1		"E-11 Blaster Rifle"
@@ -78,14 +79,14 @@ c_att_skill_4		MB_ATT_SONIC_DETONATOR
 c_att_names_4		"Sonic Grenade"
 c_att_ranks_4		6
 
-c_att_skill_5		MB_ATT_FRAG_NADE
+c_att_skill_5		MB_ATT_FRAGS
 c_att_names_5		"Flash Bang"
 c_att_ranks_5		4
 c_att_descs_5		"Blinds/staggers on det, Sec only. 99.9% less Dmg, 40% faster RoF"
 
 c_att_skill_6		MB_ATT_HEALTH
 c_att_names_6		"HP (110/120)"
-c_att_ranks_6		2,4
+c_att_ranks_6		2,2
 
 c_att_skill_7		MB_ATT_ARMOUR
 c_att_names_7		"Armor (10)"
@@ -106,12 +107,12 @@ c_att_descs_10		"Protect 1"
 
 c_att_skill_11		MB_ATT_BRYAR_OLD
 c_att_names_11		"Disruptor Pistol"
-c_att_ranks_11		10
+c_att_ranks_11		8
 c_att_descs_11		"Hitscan, Stuns/Burns/Electrifies/Poisons/Tracks, Low Ammo and Damage."
 
 c_att_skill_12		MB_ATT_DODGE
 c_att_names_12		"Dodge"
-c_att_ranks_12		0,0,6
+c_att_ranks_12		0,0,4
 
 c_att_skill_13		MB_ATT_FP_TEAM_FORCE
 c_att_names_13		"Order: March"
@@ -152,7 +153,7 @@ WeaponInfo1
 	altMissileHitDroidEffect	"Grenades/EXP_Flash"
 	missileHitDroidEffect	"Grenades/EXP_Flash"
 	Icon	"gfx/hud/w_icon_stungrenade"
-	WeaponName	"Flashbang Grenades"
+	WeaponName	"Flash Bang"
 	primFireEnabled			0
 	damagemod 0.001
 	ratemod 0.6
@@ -167,8 +168,8 @@ WeaponInfo2
 	Icon				"gfx/hud/w_icon_imp_pistol"
 	ChargeSound			"sound/weapons/leia_pistol/altcharge.mp3"
 	WeaponName			"Disruptor Pistol"
-	clipSize			1
-	customAmmo			9
+	clipSize			3
+	customAmmo			27
 	primHitscanShot		1
 	primHitscanTracer	10
 	primGore			1
@@ -199,9 +200,6 @@ A customizable multilife Imperial Officer with several gadgets who can specializ
 
 ^2Weaponry:
 - Melee
-- SE-14C Blaster Pistol (2)
--- +5% Rate of Fire
--- Less Clip Ammo
 
 ^6Inventory:
 - Binoculars
