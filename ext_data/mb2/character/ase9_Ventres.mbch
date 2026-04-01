@@ -63,26 +63,6 @@ ClassInfo
 	model_1		"asajj_cw"
 	skin_1		 "default"
 	uishader_1 	"models/players/asajj_cw/mb2_icon_default"
-	
-	model_2		"ventress"
-	skin_2		"default"
-	uishader_2	"models/players/ventress/icon_default"
-	
-	model_3		"ventress"
-	skin_3		"disguise"
-	uishader_3	"models/players/ventress/icon_disguise"
-	
-	model_4		"ventress"
-	skin_4		"helmet"
-	uishader_4	"models/players/ventress/icon_helmet"
-	
-	model_5		"ventress"
-	skin_5		"helmetup"
-	uishader_5	"models/players/ventress/icon_helmetup"
-	
-	model_6		"Asajj_NS"
-	skin_6		"default"
-	uishader_6	"models/players/Asajj_NS/icon_default"
 }
 
 description "Asajj Ventress
