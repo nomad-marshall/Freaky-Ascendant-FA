@@ -165,7 +165,7 @@ c_att_skill_33	MB_ATT_STM_MULTIPLIER
 c_att_names_33	"Skill CD (.8/.75)"
 c_att_ranks_33	3,2
 c_att_skill_34	MB_ATT_TRACKING_DART
-c_att_names_34 "Tracking Darts ^3[CS1]"
+c_att_names_34 "Tracking Darts ^3[CS4 Melee]"
 c_att_ranks_34 0,1,1
 }
 
