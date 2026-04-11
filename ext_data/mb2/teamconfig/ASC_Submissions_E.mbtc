@@ -98,8 +98,7 @@ SubclassesForClass4
 	Subclass4	"v8_Galak"
 	Subclass5	"v8_Snoova"
 	Subclass6	"v8_Wampa"
-	Subclass7	"ase8_BlackK"
-	Subclass8 	"ase8_KXDroid"
+	Subclass7 	"ase8_KXDroid"
 }
 
 SubclassesForClass5
@@ -133,11 +132,10 @@ SubclassesForClass6
 	Subclass8	"v10_Nihilus"
 	Subclass9	"ase10_TrayaTrio"
 	Subclass10	"ase10_Abeloth"
-	Subclass11	"ase10_Nadd"
-	Subclass12	"ase10_Yun"
-	Subclass13	"ase10_Sariss"
-	Subclass14	"ase10_Boc"
-	Subclass15	"ase10_Pic"
-	Subclass16	"ase10_Gorc"
-	Subclass17	"ase10_Kallig"
+	Subclass11	"ase10_Yun"
+	Subclass12	"ase10_Sariss"
+	Subclass13	"ase10_Boc"
+	Subclass14	"ase10_Pic"
+	Subclass15	"ase10_Gorc"
+	Subclass16	"ase10_Kallig"
 }
