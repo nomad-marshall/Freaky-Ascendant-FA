@@ -21,7 +21,7 @@ ClassInfo
 	holdables			HI_SENTRY_GUN|HI_SEEKER|HI_MEDPAC
 	classflags			CFL_STATVIEWER
 	
-	WP_Mandopistolflags HELD_POISON|HELD_DISRUPTIFY|HELD_FLAME|HELD_PULSE|HELD_STUN|HELD_ALTRELOAD|HELD_TRACKING
+	WP_WP_BRYAR_OLD			HELD_POISON|HELD_DISRUPTIFY|HELD_FLAME|HELD_PULSE|HELD_STUN|HELD_ALTRELOAD|HELD_TRACKING
 	WP_Melee			HELD_LOWDAMAGE|HELD_SPEED
 
 	basespeed			190
@@ -58,9 +58,9 @@ isCustomBuild	1
 mbPoints		40
 
 c_att_skill_0		MB_ATT_BLASTER_PISTOL
-c_att_names_0		"SE-1C Blaster Pistol"
+c_att_names_0		"SE-14C Blaster Pistol"
 c_att_ranks_0		0,0,2
-c_att_descs_0		"5 Percent Faster ROF, Less Clip Size"
+c_att_descs_0		"5 Percent Slower RoF, Less Clip Size"
 
 c_att_skill_1		MB_ATT_BLASTER
 c_att_names_1		"E-11 Blaster Rifle"
@@ -168,8 +168,8 @@ WeaponInfo2
 	Icon				"gfx/hud/w_icon_imp_pistol"
 	ChargeSound			"sound/weapons/leia_pistol/altcharge.mp3"
 	WeaponName			"Disruptor Pistol"
-	clipSize			3
-	customAmmo			27
+	clipSize			2
+	customAmmo			20
 	primHitscanShot		1
 	primHitscanTracer	10
 	primGore			1
