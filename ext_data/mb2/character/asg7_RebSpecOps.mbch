@@ -106,9 +106,9 @@ WeaponInfo0
 	WeaponBasedOff		WP_CLONE_PISTOL
 	NewWorldModel		"models/weapons2/usp_match/usp_match.glm"
 	NewViewModel		"models/weapons2/usp_match/usp_match.md3"
-	MuzzleEffect		"null"
+	MuzzleEffect		null
 	AltMuzzleEffect		"halo_smg/Muzzle_Flash"
-	ChargeEffect		"null"
+	ChargeEffect		null
 	MissileEffect		"halo_pistol/shot"
 	MissileMissEffect "halo_smg/wall_impact"
 	altMissileMissEffect	"halo_smg/wall_impact"
@@ -133,9 +133,9 @@ WeaponInfo1
 	WeaponBasedOff		WP_BLASTER_PISTOL
 	NewWorldModel		"models/weapons2/usp_match/usp_match.glm"
 	NewViewModel		"models/weapons2/usp_match/usp_match.md3"
-	MuzzleEffect		"null"
+	MuzzleEffect		null
 	AltMuzzleEffect		"halo_smg/Muzzle_Flash"
-	ChargeEffect		"null"
+	ChargeEffect		null
 	MissileEffect		"halo_pistol/shot"
 	MissileMissEffect "halo_smg/wall_impact"
 	altMissileMissEffect	"halo_smg/wall_impact"
