@@ -122,7 +122,7 @@ WeaponInfo3
 	WeaponName		"VRL-29 Air Burst Grenade Launcher"
 	FlashSound0	"Sound/weapons/reglauncher/fire.wav"
 	AltFlashSound0	"sound/ambience/kotor/Console10.mp3"
-	ChargeSound 	"null"
+	ChargeSound 	null
 	hasAnimOverrides 1
 	animReady	BOTH_AMBAN_IDLE
 	animReadyWalk	BOTH_AMBAN_IDLE
