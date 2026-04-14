@@ -55,7 +55,7 @@ WeaponInfo0
 	NewViewModel		"models/weapons2/leias_pistol/blaster_pistol.md3"
 	Icon				"models/weapons2/leias_pistol/w_icon_leias_pistol"
 	WeaponName			"Senator's Stun Pistol"
-    MuzzleEffect        "sonic_pistol/muzzle_flash"
+    MuzzleEffect        "sonic_pistol/k_muzzle_flash"
 	primfireenabled 0
 	Clipsize 80
 	fpmult 5
