@@ -55,13 +55,13 @@ ClassInfo
 	c_att_ranks_0	-1
 	c_att_skill_1	MB_ATT_CLONE_PISTOL
 	c_att_names_1	"Cryo-Ban Projectile Rounds:"
-	c_att_ranks_1	10,0
-	c_att_descs_1	"Freezes on hit, 44.5% more DMG, 35% more FP DMG,
+	c_att_ranks_1	15,0
+	c_att_descs_1	"Freezes on hit, 18% more DMG, 35% more FP DMG,
 20% slower RoF, hitscan alt fire, mag reload"
 	c_att_skill_2	MB_ATT_PISTOL
 	c_att_names_2	"Borless Acid Rounds:"
 	c_att_ranks_2	10,0
-	c_att_descs_2	"Poisons on hit, 18% more DMG, 35% more FP DMG,
+	c_att_descs_2	"Poisons on hit, 44.5% more DMG, 35% more FP DMG,
 50% more charged FP DMG, 20% slower RoF, hitscan alt fire, mag reload"
 	c_att_skill_4	MB_ATT_WESTARM5
 	c_att_names_4	"^2Modified E-22(M5):"
@@ -106,9 +106,9 @@ WeaponInfo0
 	WeaponBasedOff		WP_CLONE_PISTOL
 	NewWorldModel		"models/weapons2/usp_match/usp_match.glm"
 	NewViewModel		"models/weapons2/usp_match/usp_match.md3"
-	MuzzleEffect		"null"
+	MuzzleEffect		null
 	AltMuzzleEffect		"halo_smg/Muzzle_Flash"
-	ChargeEffect		"null"
+	ChargeEffect		null
 	MissileEffect		"halo_pistol/shot"
 	MissileMissEffect "halo_smg/wall_impact"
 	altMissileMissEffect	"halo_smg/wall_impact"
@@ -124,7 +124,7 @@ WeaponInfo0
 	altHitscanTracer	10
 	ClipSize			20
 	rateMod				1.2
-	damageMod			1.445
+	damageMod			1.18
 	FpMult				1.35
 }
 WeaponInfo1
@@ -133,9 +133,9 @@ WeaponInfo1
 	WeaponBasedOff		WP_BLASTER_PISTOL
 	NewWorldModel		"models/weapons2/usp_match/usp_match.glm"
 	NewViewModel		"models/weapons2/usp_match/usp_match.md3"
-	MuzzleEffect		"null"
+	MuzzleEffect		null
 	AltMuzzleEffect		"halo_smg/Muzzle_Flash"
-	ChargeEffect		"null"
+	ChargeEffect		null
 	MissileEffect		"halo_pistol/shot"
 	MissileMissEffect "halo_smg/wall_impact"
 	altMissileMissEffect	"halo_smg/wall_impact"
@@ -151,7 +151,7 @@ WeaponInfo1
 	altHitscanTracer	10
 	ClipSize			10
 	rateMod				1.2
-	damageMod			1.18
+	damageMod			1.445
 	FpMult				1.35
 }
 WeaponInfo2
@@ -215,7 +215,7 @@ WeaponInfo5
 	NewWorldModel	"models/weapons2/a180/a180_ion.glm"
 	NewViewModel	"models/weapons2/a180/model_ion.md3"
 	AltMissileEffect	"arc_caster/ArcCasterShock"
-	AltMuzzleEffect	"arc_caster/ArcCasterMuzzle"
+	AltMuzzleEffect	"blaster/MuzzleFlash01B"
 	AltFlashSound0	"vehicles/weapons/common/IonCannon.mp3"
 	//AltFlashSound0	"Sound/Weapons/plasma_sword/impact.wav"
 	Icon	"gfx/hud/w_icon_a180_ion"
