@@ -14,7 +14,7 @@ ClassInfo
 	maxhealth		100
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	maxarmor			25
 
 	forcepool		140
@@ -86,5 +86,5 @@ A Jedi/Sith hybrid sporting a strong combination of Force Powers.
 - Grip (3) ^3[CS3]
 
 ^8Attributes:
-- Heal capped at 25hp
+- Heal capped at 35hp
 - Force Block/Focus (3)"
