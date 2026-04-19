@@ -19,7 +19,7 @@ ClassInfo
 	maxhealth	120
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	modelscale	1
 	forceregen	1.1
 	MBClass		MB_CLASS_JEDI
@@ -85,7 +85,7 @@ Aggressive support that can absorb others force powers whilst being vulnerable t
 - Protect (1) ^3[CS3]
 
 ^8Attributes:
-- Heal capped at 25hp
+- Heal capped at 35hp
 - Force Block (1)
 - Force Focus (2)
 ^7- ^3*^7Light's Beacon (Shares Force Powers with a ^7targeted/nearby ally)
