@@ -19,7 +19,7 @@ ClassInfo
 	maxhealth	135
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	forcepool	120
 	forceregen	1.1
 	resource RESOURCE_FORCE
@@ -105,6 +105,6 @@ A master of combat - possessing equally strong Lightsaber and Force abilities.
 - Grip (2) ^3[CS3]
 
 ^8Attributes:
-- Heal capped at 25hp
+- Heal capped at 35hp
 - Force Block/Focus (2)
 - Fury (1)"
