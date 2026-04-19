@@ -20,7 +20,7 @@ ClassInfo
 	damageGiven 1.10
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	saberstyle SS_STAFF|SS_TAVION
 	saberDamageStyle SS_TAVION,130
 	saberThrowDamage 40
@@ -91,5 +91,5 @@ A well-rounded Jedi with a powerful Force ability that lets them Energize their 
 ^8Attributes:
 - Force Block/Focus (2)
 - Ally Stat Viewer
-- Heal capped at 25hp
+- Heal capped at 35hp
 - Rally"
