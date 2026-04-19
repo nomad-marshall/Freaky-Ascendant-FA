@@ -15,7 +15,7 @@ ClassInfo
 	maxhealth			135
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	forcepool			100
 	forceregen  1.04
  resource RESOURCE_FORCE
@@ -91,6 +91,6 @@ A support Sith with perma-Sense and Force projectiles.
 - Lightning (1) ^3[CS4]
 
 ^8Attributes:
-- Heal capped at 25hp
+- Heal capped at 35hp
 - Miraluka Vision (2)
 - Force Block/Focus (3)"
