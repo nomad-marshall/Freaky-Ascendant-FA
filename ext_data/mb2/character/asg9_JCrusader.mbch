@@ -17,7 +17,7 @@ ClassInfo
 	maxhealth			135
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	forcepool			125
 	forceregen    1.1
 	resource RESOURCE_FORCE
@@ -120,5 +120,5 @@ An offense-oriented Jedi, characterized by powerful Lightsaber swings and solid 
 - Speed (3) ^3[CS3]
 
 ^8Attributes:
-- Heal capped at 25hp
+- Heal capped at 35hp
 - Force Block/Focus (2)"
