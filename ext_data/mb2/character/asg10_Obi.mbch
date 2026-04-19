@@ -17,7 +17,7 @@ ClassInfo
 	maxhealth	150
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	forcepool	140
 	rankForcePool 185
 	
@@ -195,6 +195,6 @@ A Jedi with exceptional defenses. Choose between the resourcefulness of a Master
 
 ^8Attributes:
 - Blast Armor
-- Heal capped at 25hp
+- Heal capped at 35hp
 - Force Block (1)
 - Force Focus (2)"
