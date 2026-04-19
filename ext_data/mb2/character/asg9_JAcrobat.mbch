@@ -94,7 +94,7 @@ A speedster that excels at flanking, ambushing, and aerial combat.
 --- BP-Free Jumps
 -- Blaster Defense (2)
 -- Blaster Deflect (3)
--- 15% less Dual/8% more Blue Dmg
+-- 8% more Blue Dmg
 -- 135% Spec Dmg mult
 -- Saber Throw ^3[CS1]
 --- 50% more Dmg
@@ -109,7 +109,7 @@ A speedster that excels at flanking, ambushing, and aerial combat.
 ^8Attributes:
 - Bunny Hop (1)
 - Dexterity (3)
-- Healing (1)
+- Heal capped at 25hp
 - Force Block (2)
 - Force Focus (1)
 - Aerial Force Regen
