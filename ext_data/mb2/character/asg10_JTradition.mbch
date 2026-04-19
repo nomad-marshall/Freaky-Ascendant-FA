@@ -19,7 +19,7 @@ ClassInfo
 	maxhealth	115
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	modelscale	1
 	MBClass		MB_CLASS_JEDI
 	classflags CFL_NOPICKUPS
@@ -77,5 +77,5 @@ A High-to-Late Republic Jedi with strong Force powers and excellent defenses aga
 - Protect (3) ^3[CS3]
 
 ^8Attributes:
-- Force Block/Focus (1)"
-- Heal capped at 25hp
+- Force Block/Focus (1)
+- Heal capped at 35hp"
