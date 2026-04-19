@@ -11,7 +11,7 @@ Classes
 	class3	"v6_ScoutTr"
 	class4	"v8_GamoPig" 
 	class5	"ase9_SAcolyte"
-	class6	"v10_SForce"	
+	class6	"ase10_SForce"	
 }
 
 SubclassesForClass1
@@ -101,15 +101,15 @@ SubclassesForClass4
 SubclassesForClass5
 {
 	Subclass1	"ase9_ShadowG"
-	Subclass2	"v9_Maul"
-	Subclass3	"v9_SDuel"
+	Subclass2	"ase9_Maul"
+	Subclass3	"ase9_SDuel"
 	Subclass4	"ase9_Ventres"
 	Subclass5	"ase9_Grievous"
-	Subclass6	"v9_Savage"
-	Subclass7 	"v9_Vader"
-	Subclass8	"v9_Inquis"
+	Subclass6	"ase9_Savage"
+	Subclass7 	"ase9_Vader"
+	Subclass8	"ase9_Inquis"
 	Subclass9	"ase9_Kylo"
-	Subclass10	"v9_SJugger"
+	Subclass10	"ase9_SJugger"
 	Subclass11	"ase9_SAssass"
 	Subclass12	"ase9_SWarr"
 	Subclass13	"ase9_Sion"
@@ -121,12 +121,12 @@ SubclassesForClass6
 {
 	Subclass1	"ase10_PalpPlagNovel"
 	Subclass2	"ase10_SecretApp"
-	Subclass3	"v10_Jerec"
-	Subclass4	"v10_Tavion"
-	Subclass5	"v10_Ragnos"
+	Subclass3	"ase10_Jerec"
+	Subclass4	"ase10_Tavion"
+	Subclass5	"ase10_Ragnos"
 	Subclass6	"ase10_Plagueis"
-	Subclass7	"v10_Malak"
-	Subclass8	"v10_Nihilus"
+	Subclass7	"ase10_Malak"
+	Subclass8	"ase10_Nihilus"
 	Subclass9	"ase10_TrayaTrio"
 	Subclass10	"ase10_Yun"
 	Subclass11	"ase10_Sariss"
