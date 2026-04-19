@@ -1,0 +1,45 @@
+name "ASC_Live_G"
+
+ClassesAllowed 6
+TimePeriod 5
+EUAllowed 0
+
+Classes
+{
+	class1	"h1_Rebel"
+	class2	"h3_Clone"
+	class3	"h5_CloneJet"
+	class4	"h7_Scavenge"
+	class5	"h9_JYoung"
+	class6	"h10_JForce"
+}
+
+SubclassesForClass1
+{
+	Subclass1	"h1_NPrisoner"
+}
+
+SubclassesForClass2
+{
+	Subclass1    "h3_Arc"
+}
+
+SubclassesForClass3
+{
+	Subclass1 	"asg5_NiteOwl"
+}
+
+SubclassesForClass4
+{
+	Subclass1	"asg7_Spy"
+}
+
+SubclassesForClass5
+{
+	Subclass1	"asg9_JKnight"
+}
+
+SubclassesForClass6
+{
+	Subclass1	"h10_Obi"
+}
