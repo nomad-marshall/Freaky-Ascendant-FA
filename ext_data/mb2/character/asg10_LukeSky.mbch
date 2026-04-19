@@ -19,7 +19,7 @@ ClassInfo
 	maxhealth		135
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	skilltimermod 	1.9
 
 	forcepool		130
@@ -197,6 +197,6 @@ A defensive duelist/support who can share his Force Powers with allies.
 ^8Attributes:
 ^7- ^3*^7Light's Beacon (Shares Force Powers with a ^7targeted/nearby ally)
 - +90% Skill Cooldown Timer
-- Heal capped at 25hp
+- Heal capped at 35hp
 - Force Block (2)
 - Force Focus (3)"
