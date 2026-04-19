@@ -14,7 +14,7 @@ ClassInfo
 	maxhealth		145
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	forcepool		120
 	forceregen  1.04
 	rateOfFire_Melee .9
@@ -103,5 +103,5 @@ A rushdown Jedi with uniquely high-damage and extended-combo Fast saber styles.
 - Speed (3) ^3[CS3]
 
 ^8Attributes:
-- Heal capped at 25hp
+- Heal capped at 35hp
 - Force Block/Focus (2)"
