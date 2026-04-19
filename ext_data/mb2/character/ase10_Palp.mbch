@@ -18,7 +18,7 @@ Classinfo
 	maxhealth		100
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	forcepool		140
 
  resource RESOURCE_FORCE
@@ -115,6 +115,6 @@ A powerful but relatively frail Sith with fast Force regen and potent dark side 
 - Grip (3) ^3[CS3]
 
 ^8Attributes:
-- Heal capped at 25hp
+- Heal capped at 35hp
 - Dexterity (3)
 - Force Block/Focus (3)"
