@@ -16,7 +16,7 @@ ClassInfo
 	maxhealth 	125
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	forcepool		110
 	forceregen 1.2
  damageGiven 1.1
@@ -109,7 +109,7 @@ A speedster that excels at flanking, ambushing, and aerial combat.
 ^8Attributes:
 - Bunny Hop (1)
 - Dexterity (3)
-- Heal capped at 25hp
+- Heal capped at 35hp
 - Force Block (2)
 - Force Focus (1)
 - Aerial Force Regen
