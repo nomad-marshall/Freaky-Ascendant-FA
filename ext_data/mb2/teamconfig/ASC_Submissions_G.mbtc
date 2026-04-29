@@ -7,9 +7,9 @@ EUAllowed 0
 Classes
 {
 	class1	"asg1_Rebel"
-	class2	"h3_Clone"
-	class3	"h5_CloneJet"
-	class4	"h7_Scavenge"
+	class2	"asg3_Clone"
+	class3	"asg5_CloneJet"
+	class4	"asg7_Scavenge"
 	class5	"asg9_JYoung"
 	class6	"asg10_JForce"
 }
@@ -38,10 +38,10 @@ SubclassesForClass1
 
 SubclassesForClass2
 {
-	Subclass1    "h3_Arc"
+	Subclass1    "asg3_Arc"
 	Subclass2    "asg3_AlphaArc"
-	Subclass3    "h3_CloneSpec"
-	Subclass4    "h3_CloneCom"
+	Subclass3    "asg3_CloneSpec"
+	Subclass4    "asg3_CloneCom"
 	Subclass5    "asg3_CloneLead"
 	Subclass6    "h3_Rex"
 	Subclass7    "h3_Delta"
@@ -54,7 +54,7 @@ SubclassesForClass2
 	Subclass14   "asg3_Baodur"
 	Subclass15   "asg3_Itsatrap"
 	Subclass16   "asg3_Saw"
-	Subclass17   "h4_Ewok"
+	Subclass17   "asg4_Ewok"
 	Subclass18   "asg4_SenGuard"
 	Subclass19   "h4_Chir"
 	Subclass20   "h4_Kyle"
@@ -96,7 +96,7 @@ SubclassesForClass4
 	Subclass10	"h7_Lobot"
 	Subclass11	"h7_HK47"
 	Subclass12	"asg7_TSeries"
-	Subclass13	"h8_WookWarr"
+	Subclass13 	"asg7_RebEngie"
 	Subclass14	"h8_NRSecDroid"
 	Subclass15	"h8_Wreck"
 	Subclass16	"h8_Chewie"
@@ -104,6 +104,7 @@ SubclassesForClass4
 	Subclass18	"asg8_Zaal"
 	Subclass19	"asg8_K2SO"
 	Subclass20	"asg8_Zeb"
+	Subclass21	"h8_WookWarr"
 }
 
 SubclassesForClass5
