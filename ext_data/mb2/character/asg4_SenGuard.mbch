@@ -12,11 +12,10 @@ ClassInfo
 	attributes		MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_GUN_DEFENSE,1|MB_ATT_FORCEBLOCK,2|MB_ATT_CLONEBLOBS,2|MB_ATT_ASSEMBLE,3|MB_ATT_STAMINA,2|MB_ATT_AMMO,3|MB_ATT_DEXTERITY,1|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_GRAPPLE_HOOK,2|MB_ATT_DEFLECT,0
 
 	forcepowers	FP_SABER_OFFENSE,3
-	forcepool	100
-	forceregen 1.1
+	forcepool	80
 
 	maxhealth	100
-	maxarmor		100
+	maxarmor		80
 
 	special1	EAS_HI_SPRINT
 	special2 EAS_HI_DEX
@@ -113,7 +112,7 @@ WeaponInfo1
 	selectSound 	"s/w/t/staffswing4.mp3"
 }
 
-description	"Republic Senate Guard ^3[Reworked]
+description	"Republic Senate Guard 
 
 2-life anti-Sith hybrids who can cover and deny ground quickly.
 
@@ -125,16 +124,15 @@ description	"Republic Senate Guard ^3[Reworked]
 -- Blaster Deflect (0)
 -- Chain Limit: 3
 -- Staggers on hit
--- +115% Knockback
--- -30% Reach
--- +167% Radius
+-- 115% more Kb
+-- 30% less Reach
+-- 167% more Radius
 
 ^8Attributes:
 - Reinforcement (1)
-- +10% Knockback Given
-- -10% Knockback Taken
+- 10% more Kb Given
+- 10% less Kb Taken
 - Stamina (2)
-- +10% Regeneration Speed
 - Dexterity (1)
 - Armor Regen (1)
 - Force Block (2)

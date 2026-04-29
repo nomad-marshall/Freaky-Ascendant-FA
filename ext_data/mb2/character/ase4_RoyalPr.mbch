@@ -10,18 +10,19 @@ ClassInfo
 	
 	WP_MeleeFlags HELD_SPEED
 	WP_SaberFlags HELD_STUN
+	WP_BlasterPistolFlags HELD_ALTRELOAD
 	WP_ShotgunFlags   HELD_PULSE|HELD_ALTRELOAD|HELD_SLOWPROJ
 	WP_T21Flags HELD_ALTRELOAD
 	
-	attributes	MB_ATT_FORCEBLOCK,3|MB_ATT_HEALING,1|MB_ATT_ASSEMBLE,3|MB_ATT_GUN_DEFENSE,1|MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_DEXTERITY,2|MB_ATT_PISTOL,1|MB_ATT_AMMO,2|MB_ATT_DEFLECT,0
+	attributes	MB_ATT_FORCEBLOCK,2|MB_ATT_HEALING,1|MB_ATT_ASSEMBLE,3|MB_ATT_GUN_DEFENSE,1|MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_DEXTERITY,2|MB_ATT_PISTOL,1|MB_ATT_AMMO,2|MB_ATT_DEFLECT,0
 
 	forcepowers	FP_SABER_OFFENSE,3
 	resource RESOURCE_FORCE
 	forcepool	100
 	forceregen 	1.04
 	
-	maxhealth	100
-	maxarmor		100
+	maxhealth	80
+	maxarmor		80
 	speed		1.01
 	
 	special2 EAS_HI_DEX
@@ -62,12 +63,12 @@ ClassInfo
 	c_att_skill_1	MB_ATT_SHOTGUN
 	c_att_names_1	"ARC Caster (Shotgun)"
 	c_att_ranks_1	1
-	c_att_descs_1 "Shocks on hit, -75% Velocity, -75% Mag Reload Speed"
+	c_att_descs_1 "Shocks on hit, 75% less Velocity, 75% slower Mag Reload"
 
 	c_att_skill_2	MB_ATT_T21
 	c_att_names_2	"T-21 Heavy Blaster"
 	c_att_ranks_2	1,0
-	c_att_descs_2 "Secondary Fire only, Mag Reload"
+	c_att_descs_2 "Sec only, Mag Reload"
 	//respawncustomtime 30000
 }
 
@@ -142,23 +143,24 @@ WeaponInfo3
 	primfireenabled 	0
 }
 
-description	"Emperor's Royal Guard ^3[Reworked]
+description	"Emperor's Royal Guard 
 
 Mobile 2-lifes with a Saber and Force Block.
 
 ^2Weaponry:
 - Melee
--- +7% Rate of Fire
--- +15% Movement Speed
+-- 7% faster RoF
+-- 15% faster Movement
 - Imperial Force Pike (Yellow/Purple Saber)
 -- Saber/Blaster Defense (1)
 --- BP Regen: 4/.4s
 -- Chain Limit: 3
 -- Staggers on hit
--- +15% Knockback
--- -30% Reach
--- +167% Radius
+-- 15% more Kb
+-- 30% less Reach
+-- 167% more Radius
 - Guardsmen Blaster Pistol (1)
+-- Mag Reload
 
 ^8Attributes:
 - Reinforcement (1)
