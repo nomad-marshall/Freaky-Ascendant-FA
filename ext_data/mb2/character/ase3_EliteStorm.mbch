@@ -116,9 +116,9 @@ ClassInfo
 	c_att_names_8		"Armor (55/70)"
 	c_att_ranks_8		6,6
 	
-	c_att_skill_9		MB_ATT_HEALING
-	c_att_names_9		"Healing"
-	c_att_ranks_9		2,4
+	c_att_skill_9		MB_ATT_GRAPPLE_HOOK
+	c_att_names_9		"Grappling Hook ^3[CS4 Melee]"
+	c_att_ranks_9		1,1
 
 	c_att_skill_10		MB_ATT_RALLY
 	c_att_names_10		"Rally"
@@ -132,11 +132,6 @@ ClassInfo
 	c_att_skill_12		MB_ATT_PLX1
 	c_att_names_12		"MiniMag PTL Launcher"
 	c_att_ranks_12		10,5
-	
-	c_att_skill_13		MB_ATT_GRAPPLE_HOOK
-	c_att_names_13		"Grappling Hook ^3[CS4 Melee]"
-	c_att_ranks_13		1,1
-
 }
 WeaponInfo0
 {
